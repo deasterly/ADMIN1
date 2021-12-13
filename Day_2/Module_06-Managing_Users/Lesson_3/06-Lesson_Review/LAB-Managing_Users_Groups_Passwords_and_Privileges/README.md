@@ -62,6 +62,10 @@ PASS_WARN_AGE        10
 
 ![image](https://user-images.githubusercontent.com/36435980/145899240-6db748dd-649c-4924-a995-5c90e90f5367.png)
 
+16. `exit `
+17. `exit `
+- > Log out of **SERVER1** completely.
+
 ******
 
 ******
