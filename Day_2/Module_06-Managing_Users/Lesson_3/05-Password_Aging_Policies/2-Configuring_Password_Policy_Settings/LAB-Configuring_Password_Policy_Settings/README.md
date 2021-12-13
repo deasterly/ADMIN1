@@ -1,38 +1,48 @@
-# LESSON TITLE (pages xx-yy)
-## TOPIC TITLE
+# PASSWORD AGING POLICIES
+## Configuring Password Policy Settings
 
-## LAB TITLE
+### TRY IT - Configuring Password Policy Settings
 
-> ### Perform the following tasks on the **HOST** as user **USERNAME**.
+> Perform the following tasks on the **Workstation VM** as user **student**.
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### TASK 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
-- > Confirm you are logged in to the correct host and starting from the the **~USER** home directory.
+- > Confirm you are logged in to the correct host and starting from the the ***~student*** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
 ### TASK 2: Perform the following operations
 1. Type these commands in the terminal: 
-2. `echo "Enter commands and keystrokes between backticks in MarkDown."  `
-- > Note that commands can be explained with an UL indented blockquote
-3. `echo "Keystrokes should be enclosed in backtick quotes AND tagged with angle brackets like <TAB x2>"  ` 
-- > Keystrokes in notes should be made **bold** then backtick enclosed like **`<CTRL+ALT+DEL>`** 
-4. Add the following text to the file */etc/sudoers.d/demo*
-```
-instructor  ALL=(ALL)    NOPASSWD:  ALL
-```
-- > Use I/O redirection or `vim /etc/sudoers.d/demo` as preferred
-- > File paths in notes should be italic like *~/Desktop/* but not inside backtick-enclosed commands
-- > Text edits and script examples should be preceded and followed by triple backticks on the surrounding lines
-- > The HTML tags `<PRE>` and `</PRE>` might also work to ensure proper spacing and formatting
-5. Create the following users with the provided group memberships and account settings
-- > When creating users, groups, shares, etc. make requirements easy to understand with tables
+2. `sudo grep 'user2' /etc/shadow `
+3. `sudo chage user2   `
+- Change only the following values:
+    1. Maximum Password Age: 90
+    2. Password Expiration Warning: 10
+    3. Password Inactive: 14
+4. `sudo grep 'user2' /etc/shadow `
+- > Which fields changed?
 
-| LOGIN   | GECOS    | SHELL    | UID#    | GROUPS    | UMASK |
-| :------ | :------- | :------- | :-----: | :-------- | :---: |
-| bob | Robert Smith | /bin/bash | 2001 |wheel | 027 |
-| joe | Jo Evans | /bin/bash | 2002 | cdrom, wheel | 022 |
+![image](https://user-images.githubusercontent.com/36435980/145695697-3ffea619-47e9-459c-993e-9953e2f591e4.png)
+
+5. `sudo chage -l user2 `
+6. `sudo chage --lastday 0  user2 `
+7. `sudo chage -l  user2 `
+
+![image](https://user-images.githubusercontent.com/36435980/145695746-a49bcf99-b8e2-45b4-b5fa-7d022e371280.png)
+
+8. `ssh user2@localhost `
+- > Note that **user2** must enter the current password before entering the new password!
+- > Set the password to a more secure password of your choice (**PassTheEX200!!** for example).
+- > The user will be logged out and must reconnect after changing their password.
+9. `ssh user2@localhost `
+- > Enter the NEW password when prompted.
+
+![image](https://user-images.githubusercontent.com/36435980/145695902-20e68c70-0fa4-4328-a52a-684f6f5d2fbf.png)
+
+******
+
+******
 
 ******
