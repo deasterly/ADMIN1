@@ -1,38 +1,69 @@
-# LESSON TITLE (pages xx-yy)
-## TOPIC TITLE
+# PASSWORD AGING POLICIES
+## Lesson Review
 
-## LAB TITLE
+### HANDS ON EXERCISE - Managing Users, Groups, Passwords, and Privileges
 
-> ### Perform the following tasks on the **HOST** as user **USERNAME**.
+> Perform the following tasks on the **Workstation VM** as user **student**.
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### TASK 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
-- > Confirm you are logged in to the correct host and starting from the the **~USER** home directory.
+- > Confirm you are logged in to the correct host and starting from the the ***~student*** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
 ### TASK 2: Perform the following operations
 1. Type these commands in the terminal: 
-2. `echo "Enter commands and keystrokes between backticks in MarkDown."  `
-- > Note that commands can be explained with an UL indented blockquote
-3. `echo "Keystrokes should be enclosed in backtick quotes AND tagged with angle brackets like <TAB x2>"  ` 
-- > Keystrokes in notes should be made **bold** then backtick enclosed like **`<CTRL+ALT+DEL>`** 
-4. Add the following text to the file */etc/sudoers.d/demo*
-```
-instructor  ALL=(ALL)    NOPASSWD:  ALL
-```
-- > Use I/O redirection or `vim /etc/sudoers.d/demo` as preferred
-- > File paths in notes should be italic like *~/Desktop/* but not inside backtick-enclosed commands
-- > Text edits and script examples should be preceded and followed by triple backticks on the surrounding lines
-- > The HTML tags `<PRE>` and `</PRE>` might also work to ensure proper spacing and formatting
-5. Create the following users with the provided group memberships and account settings
-- > When creating users, groups, shares, etc. make requirements easy to understand with tables
+2. `ssh student@192.168.4.3 `
+- > Enter **Passw0rd** for the password when prompted.
+3. Type the following in the SSH terminal on SERVER1
+4. `sudo -i `
+5. `ls -lh /home `
+- > Confirm the users **bob** and **joe** created in an earlier lab exist.  Recreate the accounts if needed.
+6. `chage -l bob `
 
-| LOGIN   | GECOS    | SHELL    | UID#    | GROUPS    | UMASK |
-| :------ | :------- | :------- | :-----: | :-------- | :---: |
-| bob | Robert Smith | /bin/bash | 2001 |wheel | 027 |
-| joe | Jo Evans | /bin/bash | 2002 | cdrom, wheel | 022 |
+![image](https://user-images.githubusercontent.com/36435980/145896226-e1b38bed-283d-45a8-9c5d-08e4483e0c91.png)
+
+7. Modify the policy settings for **bob** to the following:
+
+| MIN PASS AGE | MAX PASS AGE | LAST PASS CHANGE | PASS EXPIRE WARNING | PASS INACTIVE | ACCOUNT EXPIRE DATE |
+| :----------- | :----------- | :--------------- | :------------------ | :------------ | :------------------ |
+| 3 DAYS       | 90 DAYS      | DO NOT CHANGE    | 10 DAYS             | 14 DAYS       | DO NOT CHANGE       |
+
+8. `chage bob `
+- > Follow the interactive prompts then confirm the correct settings were applied with `chage -l bob `
+
+![image](https://user-images.githubusercontent.com/36435980/145897451-5170f874-54d1-4189-bde6-828394ef82e9.png)
+
+9. `cp -v /etc/login.defs  ~/login.defs.bak `
+- > Backup important config files before making changes!
+- > Refer to `man login.defs` for more information as needed.
+10. `vim  /etc/login.defs `
+
+![image](https://user-images.githubusercontent.com/36435980/145897782-fd9f5b87-da50-4f59-8b7b-b83105f558ee.png)
+
+11. Modify these lines in */etc/login.defs* as shown. 
+```
+PASS_MAX_DAYS        90
+PASS_MIN_DAYS        3
+PASS_MIN_LEN         5
+PASS_WARN_AGE        10
+```
+
+![image](https://user-images.githubusercontent.com/36435980/145898458-a225b44b-7dbd-4352-a299-445798382a3d.png)
+
+12. `chage -l joe `
+- > Note that changing the defaults for new account creation in */etc/login.defs* will not change existing accounts!
+13. `useradd -c "Bill Jones" bill `
+14. `echo Passw0rd | passwd --stdin bill `
+15. `chage -l bill `
+- > Note that **bill** has the new password aging policy defaults from */etc/login.defs*.
+
+![image](https://user-images.githubusercontent.com/36435980/145899240-6db748dd-649c-4924-a995-5c90e90f5367.png)
+
+******
+
+******
 
 ******
