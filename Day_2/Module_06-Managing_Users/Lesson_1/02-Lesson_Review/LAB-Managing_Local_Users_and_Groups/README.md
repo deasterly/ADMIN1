@@ -36,9 +36,9 @@
 
 | LOGIN    | GECOS COMMENT   | SHELL         | UID#    | GROUPS             | PASSWORD | HOME              |
 | :------- | :-------------- | :------------ | :-----: | :----------------- | :------- | :---------------- |
-| database | DATABASE        | /sbin/nologin | 200     | database, dbadmins |          | /var/lib/database |
+| database | DATABASE        | /sbin/nologin | 200     | database, dbadmin  |          | /var/lib/database |
 | bob      | Robert Smith    | /bin/bash     | 2001    | managers           | Passw0rd | /home/bob         |
-| joe      | Joe Evans       | /bin/bash     | 2002    | dbadmins,wheel     | Passw0rd | /home/joe         |
+| joe      | Joe Evans       | /bin/bash     | 2002    | dbadmin,wheel      | Passw0rd | /home/joe         |
 
 1. Type these commands in the terminal: 
 2. `groupadd --gid 200 database  `
