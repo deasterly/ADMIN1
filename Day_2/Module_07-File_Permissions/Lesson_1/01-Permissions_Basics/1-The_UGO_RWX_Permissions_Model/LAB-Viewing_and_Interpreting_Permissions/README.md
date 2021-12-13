@@ -1,38 +1,49 @@
-# LESSON TITLE (pages xx-yy)
-## TOPIC TITLE
+# PERMISSION BASICS
+## The User/Group/Other and Read/Write/Execute Permissions Model
 
-## LAB TITLE
+## TRY IT - Viewing and Interpreting Permissions
 
-> ### Perform the following tasks on the **HOST** as user **USERNAME**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### TASK 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
-- > Confirm you are logged in to the correct host and starting from the the **~USER** home directory.
+- > Confirm you are logged in to the correct host and starting from the the ***~student*** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
 ### TASK 2: Perform the following operations
 1. Type these commands in the terminal: 
-2. `echo "Enter commands and keystrokes between backticks in MarkDown."  `
-- > Note that commands can be explained with an UL indented blockquote
-3. `echo "Keystrokes should be enclosed in backtick quotes AND tagged with angle brackets like <TAB x2>"  ` 
-- > Keystrokes in notes should be made **bold** then backtick enclosed like **`<CTRL+ALT+DEL>`** 
-4. Add the following text to the file */etc/sudoers.d/demo*
-```
-instructor  ALL=(ALL)    NOPASSWD:  ALL
-```
-- > Use I/O redirection or `vim /etc/sudoers.d/demo` as preferred
-- > File paths in notes should be italic like *~/Desktop/* but not inside backtick-enclosed commands
-- > Text edits and script examples should be preceded and followed by triple backticks on the surrounding lines
-- > The HTML tags `<PRE>` and `</PRE>` might also work to ensure proper spacing and formatting
-5. Create the following users with the provided group memberships and account settings
-- > When creating users, groups, shares, etc. make requirements easy to understand with tables
+2. `ls -ld /bin/  ~/  /root/  `
+- > Note the ownership and permissions for the directories */bin/*, */home/student/*, and */root/*.
+    - > Users without the **execute** permission on a directory cannot `cd` to that location.
+    - > The **execute** permission is also required for the **read** and **write** permissions to work properly in a directory.
+3. `cd /root `
+- > Notice the error message.
+4. `cd /bin ; pwd `
+- > The **student** user is neither the **root** user nor are they a member of the group **root**, so they will have the "other" permissions on */bin/*.
+5. `touch /bin/testing `
+- > User student does not have the **write** permission in */bin/*.  Only the owner of */bin/* - the admin **root** account - could write to */bin/* but all users have **read** and **execute** permissions.
+6. `cd ; pwd `
+- > Confirm you are working in */home/student/* again.
+7. `stat Desktop `
+- > Notice that `stat` shows owner, group, and permissions similar to `ls -l` and more.
 
-| LOGIN   | GECOS    | SHELL    | UID#    | GROUPS    | UMASK |
-| :------ | :------- | :------- | :-----: | :-------- | :---: |
-| bob | Robert Smith | /bin/bash | 2001 |wheel | 027 |
-| joe | Jo Evans | /bin/bash | 2002 | cdrom, wheel | 022 |
+![image](https://user-images.githubusercontent.com/36435980/145905897-b177d584-9eed-4e6b-8490-88457bebacf8.png)
 
-******
+8. `stat --help | less `  
+- > Note that the `--format=FORMAT` or `-c FORMAT` options  will display only the sequences specified.
+
+![image](https://user-images.githubusercontent.com/36435980/145906254-c5fcdc35-65d3-4a47-8a9d-9fe5767a368c.png)
+
+9. `echo "The octal permissions for ~/Desktop are $(stat -c %a  ~/Desktop/)." 
+10. `echo "The symbolic permissions for ~/Desktop are $(stat -c %A  ~/Desktop/)." 
+
+![image](https://user-images.githubusercontent.com/36435980/145906612-919bbcff-2a0a-4dbe-b66f-f265a1635193.png)
+
+*****
+
+*****
+
+*****
