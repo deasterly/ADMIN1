@@ -1,38 +1,47 @@
-# LESSON TITLE (pages xx-yy)
-## TOPIC TITLE
+# PERMISSIONS BASICS
+## Setting Ownership and Permissions
 
-## LAB TITLE
+### TRY IT - Setting File Ownership and Permissions
 
-> ### Perform the following tasks on the **HOST** as user **USERNAME**.
+> Perform the following tasks on the **Workstation VM** as user **student**.
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### TASK 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
-- > Confirm you are logged in to the correct host and starting from the the **~USER** home directory.
+- > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
 ### TASK 2: Perform the following operations
 1. Type these commands in the terminal: 
-2. `echo "Enter commands and keystrokes between backticks in MarkDown."  `
-- > Note that commands can be explained with an UL indented blockquote
-3. `echo "Keystrokes should be enclosed in backtick quotes AND tagged with angle brackets like <TAB x2>"  ` 
-- > Keystrokes in notes should be made **bold** then backtick enclosed like **`<CTRL+ALT+DEL>`** 
-4. Add the following text to the file */etc/sudoers.d/demo*
-```
-instructor  ALL=(ALL)    NOPASSWD:  ALL
-```
-- > Use I/O redirection or `vim /etc/sudoers.d/demo` as preferred
-- > File paths in notes should be italic like *~/Desktop/* but not inside backtick-enclosed commands
-- > Text edits and script examples should be preceded and followed by triple backticks on the surrounding lines
-- > The HTML tags `<PRE>` and `</PRE>` might also work to ensure proper spacing and formatting
-5. Create the following users with the provided group memberships and account settings
-- > When creating users, groups, shares, etc. make requirements easy to understand with tables
+2. `pinfo chown  `
+- > Read down to the paragraph ending with `*Note Disambiguating names and IDs::`
+3. `pinfo coreutils --node="File permissions" `
+- > Refer to this documentation for more information about *Symbolic Modes* and *Numeric Modes* as needed.
+4. `chmod --help `
+- > Note that multiple *Symbolic Modes* can be separated by commas.
+- > The **OCTAL-MODE** is explained in the *coreutils.info* under *Numeric Modes*. 
+5. `cp /usr/share/dict/words ~/ `
+6. `ls -l words `
+7. `id `
+- > Confirm you are a member of the group **wheel**.
+8. `chown -v  :wheel words `
+- > Note that the owner of a file or directory can only change the group ownership if they are members of that group.
+9. `chown -v  root:root words `
+- > Note the error message.  Administrative privileges are required to change the owner to any other user or the group owner to any group of which you are not a member.
+10. `chmod -v a=rw words `
+- This give everyone **read** and **write** on the file.  Note the OCTAL permission numbers.
+11. `chmod -v o-rw words `
+- > This removes **read** and **write** from **other**.  Note the OCTAL permission numbers.
+12. `chmod -v g=r  words `
+- > This gives the owning group **read** only.  Note the OCTAL permission numbers. 
 
-| LOGIN   | GECOS    | SHELL    | UID#    | GROUPS    | UMASK |
-| :------ | :------- | :------- | :-----: | :-------- | :---: |
-| bob | Robert Smith | /bin/bash | 2001 |wheel | 027 |
-| joe | Jo Evans | /bin/bash | 2002 | cdrom, wheel | 022 |
+![image](https://user-images.githubusercontent.com/36435980/146073942-8e85def7-c00a-4c5c-a84b-65d3a5f74701.png)
 
-******
+*****
+
+*****
+
+*****
+
