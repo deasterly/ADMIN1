@@ -50,6 +50,7 @@
 - > The **write** permission on the parent directory is required to delete a file.
 22. `exit `
 23. `exit `
+24. `exit `
 - > Log out of **SERVER1** completely.
 
 ![image](https://user-images.githubusercontent.com/36435980/146079499-4a051b5a-cf38-4336-807c-ec5e1f009dc9.png)
