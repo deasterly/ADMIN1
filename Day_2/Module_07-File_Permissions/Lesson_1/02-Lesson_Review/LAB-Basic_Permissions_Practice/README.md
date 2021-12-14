@@ -1,4 +1,4 @@
-# PERMISSIONS BASICS (pages xx-yy)
+# PERMISSIONS BASICS
 ## Lesson Review
 
 ### HANDS ON EXERCISE - Basic Permissions Practice
