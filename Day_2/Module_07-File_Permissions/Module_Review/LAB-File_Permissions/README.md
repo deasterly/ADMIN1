@@ -6,7 +6,7 @@
 > Perform the following tasks on the **Workstation VM** as user **student**.
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### TASK 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
