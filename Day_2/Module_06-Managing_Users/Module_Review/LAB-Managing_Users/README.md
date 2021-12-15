@@ -34,6 +34,21 @@
 5. Open the ***Pearson RHCSA 8 Cert Guide*** to page 138 
 6. Complete **Exercise 6-3** from the book
 
+### SOLUTION
+
+![image](https://user-images.githubusercontent.com/36435980/146276026-3d6c236a-0ac9-45f3-a52f-4912f4345aad.png)
+
+![image](https://user-images.githubusercontent.com/36435980/146276251-792f1a17-417b-46fc-b40a-750c53e725d8.png)
+
+![image](https://user-images.githubusercontent.com/36435980/146276695-1d4db36f-c042-4245-ac92-2e000dc5dc31.png)
+
+![image](https://user-images.githubusercontent.com/36435980/146277072-437bcb54-97cc-41a1-96ba-af1bfdc1d3e9.png)
+
+*****
+
+![image](https://user-images.githubusercontent.com/36435980/146277636-6f8d412a-fde4-4156-be33-69c4827c6a1f.png)
+
+
 ******
 
 ******
