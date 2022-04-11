@@ -1,7 +1,7 @@
-# LESSON TITLE (pages XX-YY)
-## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
+# Configuring SSH (pages 108-115 & 443-452)
+## SSH FEATURES (SSH/SCP/SFTP/RSYNC)
 
-### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
+### TRY IT - SSH Basics
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 
@@ -13,22 +13,20 @@
 ******
 ### TASK 2: Perform the following operations
 1. Type these commands in the terminal: 
-2. `echo "Enter commands and keystrokes between backticks in MarkDown."  `
-- > Note that commands can be explained with an UL indented blockquote
-3. `echo "Keystrokes should be enclosed in backtick quotes AND tagged with angle brackets like <TAB x2>"  ` 
-- > Keystrokes in notes should be made **bold** then backtick enclosed like **`<CTRL+ALT+DEL>`** 
-4. Add the following text to the file */etc/sudoers.d/demo*
-```
-instructor  ALL=(ALL)    NOPASSWD:  ALL
-```
-- > Use I/O redirection or `vim /etc/sudoers.d/demo` as preferred
-5. Create the following users with the provided group memberships and account settings
-- > When creating users, groups, shares, etc. make requirements easy to understand with tables
+2. `ssh`
+- > Note the usage example 
+3. `ssh -<TAB x2> ` 
+- > Note all the short options that work with **`<TAB>`** autocompletion
+4. `ssh -o <TAB x2>`
+- > Note all the client options that work with **`<TAB>`** autocompletion after `-o`
+- > View `man 1 ssh` for help with options
+5. `ssh -o P<TAB x2>`
+- > Note the client options that begin with P will also autocomplete
+- > Press **`<CTRL+u>`** to remove the partial command from the terminal or press **`<CTRL+c>`** to cancel the command but leave the text in the terminal
+6. `which ssh`
+7. `rpm -qf $(which ssh) `
+8. `rpm -qd openssh-clients`
 
-| LOGIN   | GECOS    | SHELL    | UID#    | GROUPS    | UMASK |
-| :------ | :------- | :------- | :-----: | :-------- | :---: |
-| bob | Robert Smith | /bin/bash | 2001 |wheel | 027 |
-| joe | Jo Evans | /bin/bash | 2002 | cdrom, wheel | 022 |
 
 ******
 
