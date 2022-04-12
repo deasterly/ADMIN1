@@ -173,45 +173,11 @@
 ******
 
 # Using and Configuring SSH (pages 108-115 & 443-452)
-## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
+## MODULE REVIEW
 
-### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
+### END OF MODULE LAB - Using SSH Features
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
-
-******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
-1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
-3. Log out and connect using the correct host and/or user as needed.
-******
-### TASK 2: Perform the following operations
-1. Type these commands in the terminal: 
-2. `echo "Enter commands and keystrokes between backticks in MarkDown."  `
-- > Note that commands can be explained with an UL indented blockquote
-3. `echo "Keystrokes should be enclosed in backtick quotes AND tagged with angle brackets like <TAB x2>"  ` 
-- > Keystrokes in notes should be made **bold** then backtick enclosed like **`<CTRL+ALT+DEL>`** 
-4. Add the following text to the file */etc/sudoers.d/demo*
-```
-instructor  ALL=(ALL)    NOPASSWD:  ALL
-```
-- > Use I/O redirection or `vim /etc/sudoers.d/demo` as preferred
-5. Create the following users with the provided group memberships and account settings
-- > When creating users, groups, shares, etc. make requirements easy to understand with tables
-
-| LOGIN   | GECOS    | SHELL    | UID#    | GROUPS    | UMASK |
-| :------ | :------- | :------- | :-----: | :-------- | :---: |
-| bob | Robert Smith | /bin/bash | 2001 |wheel | 027 |
-| joe | Jo Evans | /bin/bash | 2002 | cdrom, wheel | 022 |
-
-******
-
-# Using and Configuring SSH (pages 108-115 & 443-452)
-## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
-
-### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
-
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **SERVER2 VM** as user **student**.
 
 ******
 ### TASK 1: Confirm your are logged in to the correct host as the correct user
@@ -221,22 +187,25 @@ instructor  ALL=(ALL)    NOPASSWD:  ALL
 ******
 ### TASK 2: Perform the following operations
 1. Type these commands in the terminal: 
-2. `echo "Enter commands and keystrokes between backticks in MarkDown."  `
-- > Note that commands can be explained with an UL indented blockquote
-3. `echo "Keystrokes should be enclosed in backtick quotes AND tagged with angle brackets like <TAB x2>"  ` 
-- > Keystrokes in notes should be made **bold** then backtick enclosed like **`<CTRL+ALT+DEL>`** 
-4. Add the following text to the file */etc/sudoers.d/demo*
-```
-instructor  ALL=(ALL)    NOPASSWD:  ALL
-```
-- > Use I/O redirection or `vim /etc/sudoers.d/demo` as preferred
-5. Create the following users with the provided group memberships and account settings
-- > When creating users, groups, shares, etc. make requirements easy to understand with tables
+2. ` `
+3. 
+******
 
-| LOGIN   | GECOS    | SHELL    | UID#    | GROUPS    | UMASK |
-| :------ | :------- | :------- | :-----: | :-------- | :---: |
-| bob | Robert Smith | /bin/bash | 2001 |wheel | 027 |
-| joe | Jo Evans | /bin/bash | 2002 | cdrom, wheel | 022 |
+# Configuring SSH (pages 108-115 & 443-452)
+## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
+
+### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
+
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+******
+### TASK 1: Confirm your are logged in to the correct host as the correct user
+1. Open a terminal as needed
+2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+3. Log out and connect using the correct host and/or user as needed.
+******
+### TASK 2: Perform the following operations
+1. Type these commands in the terminal: 
+2. ` `
 
 ******
 
@@ -246,7 +215,6 @@ instructor  ALL=(ALL)    NOPASSWD:  ALL
 ### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
-
 ******
 ### TASK 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
@@ -255,22 +223,7 @@ instructor  ALL=(ALL)    NOPASSWD:  ALL
 ******
 ### TASK 2: Perform the following operations
 1. Type these commands in the terminal: 
-2. `echo "Enter commands and keystrokes between backticks in MarkDown."  `
-- > Note that commands can be explained with an UL indented blockquote
-3. `echo "Keystrokes should be enclosed in backtick quotes AND tagged with angle brackets like <TAB x2>"  ` 
-- > Keystrokes in notes should be made **bold** then backtick enclosed like **`<CTRL+ALT+DEL>`** 
-4. Add the following text to the file */etc/sudoers.d/demo*
-```
-instructor  ALL=(ALL)    NOPASSWD:  ALL
-```
-- > Use I/O redirection or `vim /etc/sudoers.d/demo` as preferred
-5. Create the following users with the provided group memberships and account settings
-- > When creating users, groups, shares, etc. make requirements easy to understand with tables
-
-| LOGIN   | GECOS    | SHELL    | UID#    | GROUPS    | UMASK |
-| :------ | :------- | :------- | :-----: | :-------- | :---: |
-| bob | Robert Smith | /bin/bash | 2001 |wheel | 027 |
-| joe | Jo Evans | /bin/bash | 2002 | cdrom, wheel | 022 |
+2. ` `
 
 ******
 
@@ -280,7 +233,6 @@ instructor  ALL=(ALL)    NOPASSWD:  ALL
 ### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
-
 ******
 ### TASK 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
@@ -289,22 +241,7 @@ instructor  ALL=(ALL)    NOPASSWD:  ALL
 ******
 ### TASK 2: Perform the following operations
 1. Type these commands in the terminal: 
-2. `echo "Enter commands and keystrokes between backticks in MarkDown."  `
-- > Note that commands can be explained with an UL indented blockquote
-3. `echo "Keystrokes should be enclosed in backtick quotes AND tagged with angle brackets like <TAB x2>"  ` 
-- > Keystrokes in notes should be made **bold** then backtick enclosed like **`<CTRL+ALT+DEL>`** 
-4. Add the following text to the file */etc/sudoers.d/demo*
-```
-instructor  ALL=(ALL)    NOPASSWD:  ALL
-```
-- > Use I/O redirection or `vim /etc/sudoers.d/demo` as preferred
-5. Create the following users with the provided group memberships and account settings
-- > When creating users, groups, shares, etc. make requirements easy to understand with tables
-
-| LOGIN   | GECOS    | SHELL    | UID#    | GROUPS    | UMASK |
-| :------ | :------- | :------- | :-----: | :-------- | :---: |
-| bob | Robert Smith | /bin/bash | 2001 |wheel | 027 |
-| joe | Jo Evans | /bin/bash | 2002 | cdrom, wheel | 022 |
+2. ` `
 
 ******
 
@@ -314,7 +251,6 @@ instructor  ALL=(ALL)    NOPASSWD:  ALL
 ### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
-
 ******
 ### TASK 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
@@ -323,55 +259,6 @@ instructor  ALL=(ALL)    NOPASSWD:  ALL
 ******
 ### TASK 2: Perform the following operations
 1. Type these commands in the terminal: 
-2. `echo "Enter commands and keystrokes between backticks in MarkDown."  `
-- > Note that commands can be explained with an UL indented blockquote
-3. `echo "Keystrokes should be enclosed in backtick quotes AND tagged with angle brackets like <TAB x2>"  ` 
-- > Keystrokes in notes should be made **bold** then backtick enclosed like **`<CTRL+ALT+DEL>`** 
-4. Add the following text to the file */etc/sudoers.d/demo*
-```
-instructor  ALL=(ALL)    NOPASSWD:  ALL
-```
-- > Use I/O redirection or `vim /etc/sudoers.d/demo` as preferred
-5. Create the following users with the provided group memberships and account settings
-- > When creating users, groups, shares, etc. make requirements easy to understand with tables
-
-| LOGIN   | GECOS    | SHELL    | UID#    | GROUPS    | UMASK |
-| :------ | :------- | :------- | :-----: | :-------- | :---: |
-| bob | Robert Smith | /bin/bash | 2001 |wheel | 027 |
-| joe | Jo Evans | /bin/bash | 2002 | cdrom, wheel | 022 |
-
-******
-
-# Configuring SSH (pages 108-115 & 443-452)
-## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
-
-### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
-
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
-
-******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
-1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
-3. Log out and connect using the correct host and/or user as needed.
-******
-### TASK 2: Perform the following operations
-1. Type these commands in the terminal: 
-2. `echo "Enter commands and keystrokes between backticks in MarkDown."  `
-- > Note that commands can be explained with an UL indented blockquote
-3. `echo "Keystrokes should be enclosed in backtick quotes AND tagged with angle brackets like <TAB x2>"  ` 
-- > Keystrokes in notes should be made **bold** then backtick enclosed like **`<CTRL+ALT+DEL>`** 
-4. Add the following text to the file */etc/sudoers.d/demo*
-```
-instructor  ALL=(ALL)    NOPASSWD:  ALL
-```
-- > Use I/O redirection or `vim /etc/sudoers.d/demo` as preferred
-5. Create the following users with the provided group memberships and account settings
-- > When creating users, groups, shares, etc. make requirements easy to understand with tables
-
-| LOGIN   | GECOS    | SHELL    | UID#    | GROUPS    | UMASK |
-| :------ | :------- | :------- | :-----: | :-------- | :---: |
-| bob | Robert Smith | /bin/bash | 2001 |wheel | 027 |
-| joe | Jo Evans | /bin/bash | 2002 | cdrom, wheel | 022 |
+2. ` `
 
 ******
