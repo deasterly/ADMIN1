@@ -70,7 +70,7 @@
 # USING THE BASH CLI SHELL
 ## BASH History
 
-## TRY IT - Using BASH History
+### TRY IT - Using BASH History
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 
@@ -114,7 +114,7 @@
 # USING THE BASH CLI SHELL
 ## BASH Special Metacharacters
 
-## TRY IT - Using BASH Metacharacters Correctly
+### TRY IT - Using BASH Metacharacters Correctly
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 
@@ -152,7 +152,7 @@
 # USING THE BASH CLI SHELL
 ## BASH Completion and Expansion
 
-## TRY IT - Using BASH Shell Expansions
+### TRY IT - Using BASH Shell Expansions
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 
@@ -250,7 +250,7 @@
 # TYPES OF COMMANDS
 ## Shell Builtins
 
-## BASH Builtins
+### TRY IT - BASH Builtins
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 
