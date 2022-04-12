@@ -220,7 +220,7 @@ https://user-images.githubusercontent.com/36435980/144658535-05020914-b121-4c24-
 		
 7. `wc -l ~/tmpfiles1.txt `
 - > Notice there are fewer lines.
-8. `ll -R /tmp 2>  ~/tmpfiles1.txt 
+8. `ll -R /tmp 2>  ~/tmpfiles1.txt `
 - > Notice that STDOUT goes to the terminal and STDERR goes to the file.
 9. `wc -l ~/tmpfiles1.txt `
 - > Notice there are fewer lines.
