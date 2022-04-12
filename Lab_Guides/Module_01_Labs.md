@@ -8,9 +8,11 @@
 ******
 ### TASK 1: Log in to Workstation as user **student**
 1. Log in to the Ubuntu Desktop as user **student** using **Passw0rd** for the password
+
 ![image](https://user-images.githubusercontent.com/36435980/143912652-69dda936-dea6-4e25-b755-0e0726291d78.png)
 
 2. On the Ubuntu Desktop open Virtual Machine Manager 
+
 ![image](https://user-images.githubusercontent.com/36435980/143913153-b96fdd6d-4b46-4cae-b534-43be27eaabd9.png)
 
 3. Launch the Workstation VM console
@@ -19,9 +21,11 @@
 ![image](https://user-images.githubusercontent.com/36435980/143913276-a0d1af48-d552-4bb2-9108-26de56493889.png)
 
 4. Log in as **student** using **Passw0rd** for the password
+
 ![image](https://user-images.githubusercontent.com/36435980/143913326-b2e22bb0-8128-433b-a827-8498ac6eb620.png)
 
 5. Open a Terminal
+
 ![image](https://user-images.githubusercontent.com/36435980/143913351-9bea6cd4-8fac-45af-83f2-295c7e145425.png)
 
 ******
@@ -110,7 +114,9 @@
 
 ![image](https://user-images.githubusercontent.com/36435980/144289671-07f645b4-f9eb-45a0-9313-0bb4b2293892.png)
 
+
 *****
+
 # USING THE BASH CLI SHELL
 ## BASH Special Metacharacters
 
@@ -149,6 +155,7 @@
 ![image](https://user-images.githubusercontent.com/36435980/144291910-be9c4525-2553-4ce8-8816-0efec557b972.png)
 
 ******
+
 # USING THE BASH CLI SHELL
 ## BASH Completion and Expansion
 
@@ -225,6 +232,7 @@
   - > Notice that **brace expansion does not work inside quotes**.
 
 ******
+
 # USING THE BASH CLI SHELL (pages 38-39)
 ## Lesson Review
 
@@ -247,6 +255,7 @@
 4. Complete **Exercise 2-4** from the book
 
 ******
+
 # TYPES OF COMMANDS
 ## Shell Builtins
 
@@ -284,6 +293,7 @@
 ![image](https://user-images.githubusercontent.com/36435980/144316453-11000e03-6ed4-4e94-ac34-8c545c03aa5b.png)
 
 *****
+
 # TYPES OF COMMANDS
 ## External Commands
 
@@ -312,6 +322,7 @@
 ![image](https://user-images.githubusercontent.com/36435980/144317778-eb2b785f-569a-41df-b274-5b0dafe7e566.png)
 
 ******
+
 # TYPES OF COMMANDS
 ## Aliases
 
@@ -360,6 +371,7 @@
 ![image](https://user-images.githubusercontent.com/36435980/144319772-93f604f0-3bc9-4247-8b46-5ec5bab2fe29.png)
 
 ******
+
 # TYPES OF COMMANDS
 ## Lesson Review
 
@@ -436,6 +448,7 @@
 ![image](https://user-images.githubusercontent.com/36435980/144327378-9c98e3c4-7f0b-490a-9b2f-4c3d47ce1ac3.png)
 	
 ******
+
 # USING THE BASH CLI SHELL
 ## MODULE REVIEW
 
