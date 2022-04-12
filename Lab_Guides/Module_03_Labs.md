@@ -369,13 +369,7 @@ https://user-images.githubusercontent.com/36435980/144658535-05020914-b121-4c24-
 3. Change all lower case letters in *~/myfile* to capital letters and change the only capital letter to lower case.
 4. Find all of the **pdf** files in the file system and list the locations in a text file named *~/pdf.lst*.
 5. Find all of the **jpg** files in the file system and list the locations in a text file named *~/jpg.lst*
-6. Add the following host names and IP addresses to the file */etc/hosts* :
-```
-192.168.4.3        server1
-192.168.4.4        server2
-192.168.4.254      workstation
-```
-7. Create a file that reads "Welcome to Server 2" named *welcome.txt* in */etc/skel/* 
+6. Create a file that reads "Welcome to Server 2" named *welcome.txt* in */etc/skel/* 
 
 *****
 ### SOLUTION
@@ -387,6 +381,7 @@ https://user-images.githubusercontent.com/36435980/144658535-05020914-b121-4c24-
 
 2. Remove any lines that end in numbers from *~/myfile*.
 3. Change all lower case letters in *~/myfile* to capital letters and change the only capital letter to lower case.
+- > The tilde key (**`<SHIFT + ~>`**) changes the case of selected text in Command Mode.
 
 ![image](https://user-images.githubusercontent.com/36435980/144685214-7de9a856-0ccb-4846-ba7d-0a31267f06b5.png)
 
@@ -398,16 +393,7 @@ https://user-images.githubusercontent.com/36435980/144658535-05020914-b121-4c24-
 
 ![image](https://user-images.githubusercontent.com/36435980/144685280-89183029-60ac-4fb5-bc29-dc10f75104e4.png)
 
-6. Add the following host names and IP addresses to the file */etc/hosts* :
-```
-192.168.4.3        server1
-192.168.4.4        server2
-192.168.4.254      workstation
-```
-
-![image](https://user-images.githubusercontent.com/36435980/144685318-7465d93f-306c-4138-a5ba-1400b56fb1ab.png)
-
-7. Create a file that reads "Welcome to Server 2" named *welcome.txt* in */etc/skel/* 
+6. Create a file that reads "Welcome to Server 2" named *welcome.txt* in */etc/skel/* 
 
 ![image](https://user-images.githubusercontent.com/36435980/144685340-a0ad88d1-a856-4ddb-b481-23ae412fe0eb.png)
 
