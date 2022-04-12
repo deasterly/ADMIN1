@@ -246,6 +246,45 @@
 ![image](https://user-images.githubusercontent.com/36435980/145693534-e6a3337b-650d-430b-8ece-c4034e915e88.png)
 
 ******
+# MANAGING USERS
+## Administrative Privileges and Switching Users
+
+### TRY IT - Using `sudo`
+
+> Perform the following tasks on the **Workstation VM** as user **student**.
+
+******
+### TASK 1: Confirm you are logged in to the correct host as the correct user
+1. Open a terminal as needed
+2. Type the following commands in the terminal:
+3. `hostname ; whoami ; pwd `
+- > Confirm you are logged in to the correct host and starting from the the ***~student*** home directory.
+- > Log out and connect using the correct host and/or user as needed.
+******
+### TASK 2: Perform the following operations
+1. Type these commands in the terminal: 
+2. `man -k sudo`
+- > Note the manuals for the */etc/sudoers* file and the `visudo` command.
+3. `sudo --help | less`
+- > Note the **`-i`**, **`-l`**, and **`-b`** options.
+4. `sudo -l`
+
+![image](https://user-images.githubusercontent.com/36435980/163049931-446e1df9-a09d-43b4-b777-006adff13547.png)
+
+5. `whoami`
+6. `sudo whoami`
+7. `id`
+8. `sudo id`
+9. `sudo useradd fred`
+10. `sudo --user=fred whoami`
+11. `sudo --user=fred id`
+- > The UID and GID numbers for **fred** may be different on your system.
+12. `sudo userdel -r fred`
+
+![image](https://user-images.githubusercontent.com/36435980/163051000-b8c54744-41dd-4300-870f-db2b62e9c458.png)
+
+******
+
 # ADMINISTRIATIVE PRIVILEGES AND SWITCHING USERS
 ## Lesson Review
 
@@ -276,7 +315,7 @@
 
 7. `man sudoers `
 - Press **`</>`** slash to open a SEARCH prompt.
-- Type `sudoers.d**<ENTER>**` and read the manual down to the paragraph explaining which characters in a file name under */etc/sudoers.d/* would exclude the file from being processed by the **#includedir** directive.
+- Type `sudoers.d`**`<ENTER>`** and read the manual down to the paragraph explaining which characters in a file name under */etc/sudoers.d/* would exclude the file from being processed by the **#includedir** directive.
 
 ![image](https://user-images.githubusercontent.com/36435980/145694583-1488d006-e3e8-43ec-bccb-1b1357487e6e.png)
 
