@@ -85,6 +85,55 @@
 
 *****
 # CONFIGURING BASH
+## Shell Environment Configuration
+
+### TRY IT - Configuring Login Messages
+
+> Perform the following tasks on the **Workstation VM** as user **student**.
+
+******
+### TASK 1: Confirm you are logged in to the correct host as the correct user
+1. Open a terminal as needed
+2. Type the following commands in the terminal:
+3. `hostname ; whoami ; pwd `
+- > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+- > Log out and connect using the correct host and/or user as needed.
+******
+### TASK 2: Perform the following operations
+1. Type these commands in the terminal: 
+2. `man motd`
+3. `man issue`
+4. `cat /etc/issue`
+5. Edit the file */etc/issue* and add the following lines at the top:
+```
+--------------------------------------------------
+### WARNING: UNAUTHORIZED ACCESS IS PROHIBITED ###
+### ALL REMOTE CONNECTION ATTEMPTS ARE LOGGED! ###
+--------------------------------------------------
+```
+- > Adjust or shorten the added text as desired.
+- > Use `sudo vim /etc/issue` or `sudo nano /etc/issue` 
+6. `cat /etc/motd`
+7. Edit the file */etc/motd* and add the following line at the top:
+```
+Welcome to Workstation!
+```
+
+![image](https://user-images.githubusercontent.com/36435980/163028665-159ba4c6-87be-4db9-a477-4719c19ea6f4.png)
+
+8. From the Workstaton VM Console top menus, click "Send Key > Ctrl+Alt+F6" to switch to the */dev/tty6* Virtual Terminal.
+ ![image](https://user-images.githubusercontent.com/36435980/163029016-83847227-1481-48a3-88af-73f9b8fff7fd.png)
+
+9. On */dev/tty6* notice the message from */etc/issue* appears before logging in.
+10. Log in to Virtual Terminal 6 as user **student** then notice the message from */etc/motd* appears AFTER logging in.
+11. Type the `chvt 2` in the Virtual Terminal to switch to the */dev/tty2* Virtual Terminal now being used for the GNOME Desktop.
+
+![image](https://user-images.githubusercontent.com/36435980/163029685-3eb92018-a215-4976-b941-7de9a3044986.png)
+
+
+*****
+
+# CONFIGURING BASH
 ## Lesson Review
 
 ### HANDS ON EXERCISE - Customizing the Environment
