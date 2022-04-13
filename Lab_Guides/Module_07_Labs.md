@@ -37,8 +37,8 @@
 
 ![image](https://user-images.githubusercontent.com/36435980/145906254-c5fcdc35-65d3-4a47-8a9d-9fe5767a368c.png)
 
-9. `echo "The octal permissions for ~/Desktop are $(stat -c %a  ~/Desktop/)." 
-10. `echo "The symbolic permissions for ~/Desktop are $(stat -c %A  ~/Desktop/)." 
+9. `echo "The octal permissions for ~/Desktop are $(stat -c %a  ~/Desktop/)."  `
+10. `echo "The symbolic permissions for ~/Desktop are $(stat -c %A  ~/Desktop/)."  ` 
 
 ![image](https://user-images.githubusercontent.com/36435980/145906612-919bbcff-2a0a-4dbe-b66f-f265a1635193.png)
 
