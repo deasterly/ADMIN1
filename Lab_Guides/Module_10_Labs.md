@@ -59,18 +59,19 @@
 1. Type these commands in the terminal: 
 2. `sftp root@192.168.4.3`
 3. Type the following commands at the `sftp> ` prompt
-4. `pwd`
-5. `lpwd`
-6. `ls`
-7. `lls`
-8. `put /etc/hosts`
-9. `ls`
-10. `get anaconda-ks.cfg`
-11. `lls`
-12. `exit`
+- `pwd`
+- `lpwd`
+- `ls`
+- `lls`
+- `put /etc/hosts`
+- `ls`
+- `get anaconda-ks.cfg`
+- `lls`
+- `exit`
 
 ![image](https://user-images.githubusercontent.com/36435980/162843013-45ef497f-7d35-46e9-af38-bf0a448b9f76.png)
 
+4. `rm -fv ~/anaconda-ks.cfg`
 
 ******
 
@@ -111,6 +112,10 @@
 - > Note that the copied file is the same size with a different name
 
 ![image](https://user-images.githubusercontent.com/36435980/162845470-fd9968e1-958a-49f0-8df4-f99c844236bb.png)
+
+12. `rm -fv ~/words.txt`
+13. `ssh root@server2 'rm -fv ~/upload.txt'  `
+
 
 ******
 
