@@ -5,10 +5,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use `systemctl` to manage service units
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -39,9 +36,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Use `systemctl` to manage target units
 
 
 ******
@@ -70,10 +65,7 @@
 
 > ### Perform the following tasks on the **Server2 VM** as user **root**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use `systemctl` to manage units
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
