@@ -41,7 +41,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Use the native help option(s) for external commands
+- Use the native help option for external commands
 - Search for specific help topics using `COMMAND --help | grep 'SEARCHSTRING' ` 
 
 ******
@@ -132,7 +132,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Use the `man` and its options to search the manuals
+- Use the `man` command and its options to search the manuals
 - Use the `apropos` and `whatis` commands to search manual database
 - Use the `mandb` command to update the manual database
 
