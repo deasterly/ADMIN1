@@ -5,10 +5,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use the GNU Coreutils commands to manage files and directories
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -61,10 +58,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use the `ln` command to create symbolic links, a.k.a. soft links or symlinks
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -123,10 +117,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use the `ln` command to create hard links to files
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -178,10 +169,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Work with files, directories, and links
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -303,10 +291,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Work with files, directories, and links
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
