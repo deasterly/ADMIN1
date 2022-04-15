@@ -5,9 +5,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Use BASH shell builtins documentation from manuals, info docs, and the builtin `help` command
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -43,9 +41,8 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Use the native help option(s) for external commands
+- Search for specific help topics using `COMMAND --help | grep 'SEARCHSTRING' ` 
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -86,9 +83,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Use the `man` command to read documentation
 
 ******
 
@@ -137,9 +132,9 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Use the `man` and its options to search the manuals
+- Use the `apropos` and `whatis` commands to search manual database
+- Use the `mandb` command to update the manual database
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -188,9 +183,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Use the commands `pinfo` and `info` to view documentation from the GNU Project
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -241,9 +234,8 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Search documentation
+- Read documentation
 
 ******
 
@@ -306,9 +298,8 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Search documentation
+- Read documentation
 
 ******
 
