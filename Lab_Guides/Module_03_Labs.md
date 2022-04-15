@@ -4,16 +4,21 @@
 ### TRY IT - Editing Text Files Using `vim`
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `vimtutor `
 - Make sure the **`<CAPSLOCK>`** key is off
@@ -41,16 +46,20 @@ https://user-images.githubusercontent.com/36435980/144520039-7b34ce90-987e-4478-
 ### TRY IT - Saving and Exiting in `vim`
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ls -lh > files.txt `
 3. `vim files.txt `
@@ -69,16 +78,20 @@ https://user-images.githubusercontent.com/36435980/144520039-7b34ce90-987e-4478-
 ## TRY IT - Selecting, Copying, and Pasting in `vim`
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ls -ahl > homedir.txt `
 3. `vim ~/homedir.txt `
@@ -125,16 +138,21 @@ https://user-images.githubusercontent.com/36435980/144653014-189997f4-4fd5-4dea-
 ### HANDS ON EXERCISE - Create and Edit Text Files Using `vim`
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.3 `
 - > Enter ***Passw0rd*** for the password when prompted.  
@@ -192,16 +210,21 @@ https://user-images.githubusercontent.com/36435980/144658535-05020914-b121-4c24-
 ### TRY IT - Redirecting STDOUT and STDERR
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ll -R /tmp `
 - > Notice some lines show files or directories - ***STDOUT*** -  while other lines - ***STDERR*** - are errors.
@@ -241,16 +264,21 @@ https://user-images.githubusercontent.com/36435980/144658535-05020914-b121-4c24-
 ### TRY IT - Using Pipelines
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `wc --help `
 - > Notice this line: 
@@ -297,16 +325,21 @@ https://user-images.githubusercontent.com/36435980/144658535-05020914-b121-4c24-
 ### HANDS ON EXERCISE - Using I/O Redirection and Pipelines
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~USER** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.3 `
 - > Enter **Passw0rd** for the password when prompted.
@@ -342,16 +375,21 @@ https://user-images.githubusercontent.com/36435980/144658535-05020914-b121-4c24-
 ### END OF MODULE LAB - Working with Text
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Connect to SERVER2 as user student
+### STEP 2: Connect to SERVER2 as user student
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.4 `
 - > Enter ***Passw0rd*** when prompted.
@@ -362,7 +400,7 @@ https://user-images.githubusercontent.com/36435980/144658535-05020914-b121-4c24-
 ![image](https://user-images.githubusercontent.com/36435980/144498336-a8167036-c939-4374-860c-2a720abf1ffd.png)
 
 *****
-### TASK 3:  Perform the following operations on SERVER2
+### STEP 3:  Perform the following operations on SERVER2
 
 1. Put the first 15 lines of the file */usr/share/dict/words* into the file *~/myfile*.
 2. Remove any lines that end in numbers from *~/myfile*.

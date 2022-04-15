@@ -3,17 +3,21 @@
 
 ### TRY IT - Shell Environment Variables
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `printenv | grep -E 'USER|HOME|PATH|HOST|SHELL|PWD'  `
 - > Note that these variables can be used in commands and will **expand** (following the rules for quoting and escaping) to their assigned values.
@@ -32,17 +36,22 @@
 
 ### TRY IT - Personalizing the Shell Environment
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ls /etc/bash* /etc/profile* ~/.bash*  `
 3. `pinfo bash --node="Bash Startup Files"  `
@@ -89,17 +98,22 @@
 
 ### TRY IT - Configuring Login Messages
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `man motd`
 3. `man issue`
@@ -138,17 +152,22 @@ Welcome to Workstation!
 
 ### HANDS ON EXERCISE - Customizing the Environment
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the ***~student*** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.3 `
 - > Enter **Passw0rd** for the password when prompted.
@@ -189,17 +208,22 @@ echo "Hello $USER"
 
 ### END OF MODULE LAB - Configuring BASH
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the ***~student*** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Connect to SERVER2 as user student
+### STEP 2: Connect to SERVER2 as user student
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.4 `
 - > Enter ***Passw0rd*** when prompted.
@@ -210,7 +234,7 @@ echo "Hello $USER"
 ![image](https://user-images.githubusercontent.com/36435980/144498336-a8167036-c939-4374-860c-2a720abf1ffd.png)
 
 *****
-### TASK 3:  Perform the following operations on SERVER2
+### STEP 3:  Perform the following operations on SERVER2
 1. Create a user named **user** with a password of **Passw0rd** on SERVER2
 2. `sudo useradd user `
 3. `echo Passw0rd | sudo passwd --stdin  user `

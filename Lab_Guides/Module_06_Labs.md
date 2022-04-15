@@ -3,17 +3,22 @@
 
 ### TRY IT - Managing Local Groups
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the ***~student*** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `groupadd --help  `
 3. `sudo groupadd group1 `
@@ -44,16 +49,21 @@
 ### TRY IT - Managing Local Users
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `grep 'student'  /etc/passwd  /etc/group  `
 3. `id student `
@@ -115,17 +125,22 @@
 
 ### HANDS ON EXERCISE - Managing Local Users and Groups
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the ***~student*** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.3 `
 - > Enter **Passw0rd** for the password when prompted.
@@ -138,7 +153,7 @@
 ![image](https://user-images.githubusercontent.com/36435980/145691243-11921e9a-9f31-468b-92e8-e44721ac1ec0.png)
 
 *****
-### TASK 3: Create the following groups and users
+### STEP 3: Create the following groups and users
 
 | GROUP NAME | GID# |
 | :--------- | :--: |
@@ -201,17 +216,22 @@
 
 ### TRY IT - Using `su`
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the ***~student*** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `su --help | head -n 15  `
 - > Review the syntax and options for the `su` command.
@@ -251,17 +271,22 @@
 
 ### TRY IT - Using `sudo`
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the ***~student*** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `man -k sudo`
 - > Note the manuals for the */etc/sudoers* file and the `visudo` command.
@@ -290,17 +315,22 @@
 
 ### HANDS ON EXERCISE - Elevating Privileges and Switching Users
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the ***~student*** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.3 `
 - > Enter **Passw0rd** for the password when prompted.
@@ -320,7 +350,7 @@
 ![image](https://user-images.githubusercontent.com/36435980/145694583-1488d006-e3e8-43ec-bccb-1b1357487e6e.png)
 
 *****
-### TASK 3: Configure `sudo` 
+### STEP 3: Configure `sudo` 
 1. Configure `sudo` to allow user **bob** full admin privileges without a password. Type these commands in the terminal: 
 2. `grep 'NOPASSWD' /etc/sudoers  `
 - > Use this example to begin.
@@ -348,17 +378,22 @@ bob  ALL=(ALL)    NOPASSWD:  ALL
 
 ### TRY IT - Viewing Password Policy Settings
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the ***~student*** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `man chage  `
 3. Read the manual and find answers to the following questions:
@@ -389,17 +424,22 @@ bob  ALL=(ALL)    NOPASSWD:  ALL
 
 ### TRY IT - Configuring Password Policy Settings
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the ***~student*** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `sudo grep 'user2' /etc/shadow `
 3. `sudo chage user2   `
@@ -434,17 +474,22 @@ bob  ALL=(ALL)    NOPASSWD:  ALL
 
 ### HANDS ON EXERCISE - Managing Users, Groups, Passwords, and Privileges
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the ***~student*** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.3 `
 - > Enter **Passw0rd** for the password when prompted.
@@ -504,17 +549,22 @@ PASS_WARN_AGE        10
 
 ### END OF MODULE LAB - Managing Users
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the ***~student*** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Connect to SERVER2 as user student
+### STEP 2: Connect to SERVER2 as user student
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.4 `
 - > Enter ***Passw0rd*** when prompted.
@@ -525,7 +575,7 @@ PASS_WARN_AGE        10
 ![image](https://user-images.githubusercontent.com/36435980/144498336-a8167036-c939-4374-860c-2a720abf1ffd.png)
 
 *****
-### TASK 3:  Perform the following operations on SERVER2
+### STEP 3:  Perform the following operations on SERVER2
 1. `sudo -i `
 2. `cp -v /etc/login.defs ~/ `
 

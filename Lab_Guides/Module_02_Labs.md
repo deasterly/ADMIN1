@@ -4,16 +4,20 @@
 ### TRY IT - BASH Builtins Help
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `pinfo bash `
 - Navigate to the **" * Shell Builtin Commands:: "** node and press **`<ENTER>`**
@@ -38,16 +42,20 @@
 ### TRY IT - External Command Help
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `mkdir --help `
 - > Notice that 'Usage:' is first, followed by the default behavior of the command. 
@@ -77,16 +85,21 @@
 ### TRY IT - Reading Manual Pages
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `man man `
 - Take a few moments to read the **DESCRIPTION** and **EXAMPLE** sections of the manual.
@@ -123,16 +136,20 @@
 ### TRY IT - Searching the Manual Database
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Search manual pages
+### STEP 2: Search manual pages
 1. Type these commands in the terminal: 
 2. `sudo mandb `
 - > Enter ***Passw0rd*** when prompted.
@@ -170,16 +187,20 @@
 ### TRY IT - Using GNU Info Documentation and `pinfo`
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Read and understand GNU INFO documentation
+### STEP 2: Read and understand GNU INFO documentation
 1. Type these commands in the terminal: 
 2. `whereis pinfo `
 3. `ls /usr/share/info `
@@ -219,16 +240,21 @@
 ### HANDS ON EXERCISE - Searching and Using Documentation
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.3 `
 - > Enter ***Passw0rd*** for the password when prompted.  
@@ -279,16 +305,21 @@
 ### END OF MODULE LAB - Help and Documentation
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Connect to SERVER2 as user student
+### STEP 2: Connect to SERVER2 as user student
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.4 `
 - > Enter ***Passw0rd*** when prompted.
@@ -299,7 +330,7 @@
 ![image](https://user-images.githubusercontent.com/36435980/144498336-a8167036-c939-4374-860c-2a720abf1ffd.png)
 
 *****
-### TASK 3:  Perform the following operations on SERVER2
+### STEP 3:  Perform the following operations on SERVER2
 
 1. Update the manual page database.
 2. Find out where the command `find` will execute from **and** where to find documentation in a single command.

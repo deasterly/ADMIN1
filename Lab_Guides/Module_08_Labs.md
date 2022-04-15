@@ -4,14 +4,19 @@
 ### TRY IT - Job Control
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `sudo -i `
 - > Confirm you are now user **root** on **Workstation**
@@ -30,14 +35,19 @@
 ### TRY IT - Sending Signals to Processes
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Read pages 244-245 of the ***Pearson RHCSA Cert Guide***
 2. Type these commands in the terminal: 
     1) `sleep 10000 `
@@ -69,14 +79,19 @@
 ### END OF MODULE LAB - Process Basics
 
 > ### Perform the following tasks on the **Server2 VM** as user **root**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Confirm you are logged in to the correct host and starting from the the **~root** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Open the ***Pearson RHCSA Cert Guide*** to page 245
 2. Complete **Exercise 10-2** from the book
 

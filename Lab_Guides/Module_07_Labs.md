@@ -4,16 +4,21 @@
 ## TRY IT - Viewing and Interpreting Permissions
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the ***~student*** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ls -ld /bin/  ~/  /root/  `
 - > Note the ownership and permissions for the directories */bin/*, */home/student/*, and */root/*.
@@ -48,17 +53,22 @@
 
 ### TRY IT - Setting File Ownership and Permissions
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `pinfo chown  `
 - > Read down to the paragraph ending with `*Note Disambiguating names and IDs::`
@@ -91,17 +101,22 @@
 
 ### HANDS ON EXERCISE - Basic Permissions Practice
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.3 `
 - > Enter **Passw0rd** for the password when prompted.
@@ -149,17 +164,22 @@
 
 ### TRY IT - Setting Special Permissions
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ls -ld  /tmp   /run/log/journal   /bin/passwd  `
 - > Note the **other** permissons on */tmp/*.
@@ -196,17 +216,22 @@
 
 ### HANDS ON EXERCISE - Creating a directory for Group Collaboration
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.3 `
 - > Enter **Passw0rd** for the password when prompted.
@@ -247,17 +272,22 @@
 
 ### END OF MODULE LAB - File Permissions
 
-> Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Connect to SERVER2 as user student
+### STEP 2: Connect to SERVER2 as user student
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.4 `
 - > Enter ***Passw0rd*** when prompted.
@@ -268,7 +298,7 @@
 ![image](https://user-images.githubusercontent.com/36435980/144498336-a8167036-c939-4374-860c-2a720abf1ffd.png)
 
 *****
-### TASK 3:  Perform the following operations on SERVER2
+### STEP 3:  Perform the following operations on SERVER2
 1. `sudo -i `
 2. Confirm the following users and groups are configured.  Create and modify as needed.
 

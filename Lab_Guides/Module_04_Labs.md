@@ -4,16 +4,21 @@
 ### TRY IT - Using Essential File and Directory Commands
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `mkdir -v  ~/classfiles `
 3. `cd ~/classfiles/ `
@@ -55,16 +60,21 @@
 ## TRY IT - Using Symbolic Links
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ln --help | less `
 - > Notice the usage example, default behavior, and options.
@@ -112,16 +122,21 @@
 ### TRY IT - Using Hard Links 
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `cd  /usr/share/zoneinfo/ `
 3. `file  UTC `
@@ -162,16 +177,21 @@
 ### HANDS ON EXERCISE - Managing Files, Directories, and Links
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.3 `
 - > Enter ***Passw0rd*** for the password when prompted.  
@@ -216,14 +236,14 @@
 > Perform the following tasks on the **Workstation VM** as user **student**.
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `tar --help | less `
 - > Review the *EXAMPLES* and *Compression Options* in the help then exit `less` when done.
@@ -253,14 +273,14 @@
 
 > Perform the following tasks on the **Workstation VM** as user **student**.
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ssh root@192.168.4.3 `
 - > Enter **Passw0rd!** for the password when prompted.
@@ -271,7 +291,7 @@
 6. `tar --help | less `
 - > Refer to this terminal for help as needed and exit `less` when done.
 *****
-### TASK 3: Complete the following steps on SERVER1
+### STEP 3: Complete the following steps on SERVER1
 1. Open the ***Pearson RHCSA 8 Cert Guide*** to page 75 
 2. Complete **Exercise 3-5** from the book
 
@@ -282,16 +302,21 @@
 ### END OF MODULE LAB - Working with Files
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Connect to SERVER2 as user student
+### STEP 2: Connect to SERVER2 as user student
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.4 `
 - > Enter ***Passw0rd*** when prompted.
@@ -302,7 +327,7 @@
 ![image](https://user-images.githubusercontent.com/36435980/144498336-a8167036-c939-4374-860c-2a720abf1ffd.png)
 
 *****
-### TASK 3:  Perform the following operations on SERVER2
+### STEP 3:  Perform the following operations on SERVER2
 1. Open the ***Pearson RHCSA 8 Cert Guide*** to pages 62-63 
 2. Complete **Exercise 3-2** from the book
 3. Open the ***Pearson RHCSA 8 Cert Guide*** to page 67-68

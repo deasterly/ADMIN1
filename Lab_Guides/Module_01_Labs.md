@@ -4,9 +4,13 @@
 ### TRY IT - Working Efficiently in the Shell
 
 > ### Perform the following tasks on the Workstation VM Console as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
 
 ******
-### TASK 1: Log in to Workstation as user **student**
+### STEP 1: Log in to Workstation as user **student**
 1. Log in to the Ubuntu Desktop as user **student** using **Passw0rd** for the password
 
 ![image](https://user-images.githubusercontent.com/36435980/143912652-69dda936-dea6-4e25-b755-0e0726291d78.png)
@@ -29,7 +33,7 @@
 ![image](https://user-images.githubusercontent.com/36435980/143913351-9bea6cd4-8fac-45af-83f2-295c7e145425.png)
 
 ******
-### TASK 2: Type the following in the terminal: 
+### STEP 2: Type the following in the terminal: 
 1. `ls <ENTER>`
 2. `pwd <ENTER>`
 3. `ls ; echo ; pwd <ENTER>`
@@ -77,16 +81,21 @@
 ### TRY IT - Using BASH History
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `help history `
 - > Take a moment to read the help and take note of the HISTFILE location.	
@@ -123,16 +132,21 @@
 ### TRY IT - Using BASH Metacharacters Correctly
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `echo  $SHELL and  "$HOME" compared to  ;  echo   \$SHELL vs. '$HOME'  `
 
@@ -162,16 +176,21 @@
 ### TRY IT - Using BASH Shell Expansions
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Use Filename Expansion
+### STEP 2: Use Filename Expansion
 1. Type these commands in the terminal: 
 2. `man 7 glob `
 - > Globbing is another name for **Filename Expansion**
@@ -189,7 +208,7 @@
 	
 ![image](https://user-images.githubusercontent.com/36435980/144293392-7f128f3e-f4b1-4dff-9544-b4955d98f8e5.png)
 	
-### TASK 3: Use Command Substitution
+### STEP 3: Use Command Substitution
 1. Type these commands in the terminal: 
 2. `man bash `
 - > Type `/Command Substitution$<ENTER> ` then read to beginning of **"Arithmetic Expansion."**  Type **`<q>`** to quit when done.
@@ -204,7 +223,7 @@
 
 ![image](https://user-images.githubusercontent.com/36435980/144297134-c3bb8617-d2da-4263-8915-9457670fad8f.png)
 
-### TASK 4: Use Tilde Expansion
+### STEP 4: Use Tilde Expansion
 1. Type these commands in the terminal: 
 2. `man bash `
 - > Type `/Tilde Expansion$<ENTER> ` then read the first paragraph.  Type **`<q>`** to quit when done.)
@@ -218,7 +237,7 @@
 
 	![image](https://user-images.githubusercontent.com/36435980/144297539-649d027d-9989-43cd-b631-cae1245c3e72.png)
 
-### TASK 5: Use Brace Expansion
+### STEP 5: Use Brace Expansion
 1. Type these commands in the terminal: 
 2. `man bash `
 - > Type `/Brace Expansion$<ENTER> ` then read the first 5 paragraphs.  Type **`<q>`** to quit when done.
@@ -239,16 +258,21 @@
 ### HANDS-ON EXERCISE - BASH Shell Essentials
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm you are logged in to the correct host as the correct user
+### STEP 1: Confirm you are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Complete the following steps
+### STEP 2: Complete the following steps
 1. Open the ***Pearson RHCSA 8 Cert Guide*** to page 38 
 2. Complete **Exercise 2-3** from the book
 3. Open the ***Pearson RHCSA 8 Cert Guide*** to page 39
@@ -262,16 +286,21 @@
 ### TRY IT - BASH Builtins
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `help | less ` 
 - > Take a moment to read the top paragraph and list of built-in commands.
@@ -300,16 +329,21 @@
 ### TRY IT - Exernal Commands
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `which cp `
 3. `file $(which cp) `
@@ -329,16 +363,21 @@
 ### TRY IT - BASH Aliases
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Identify Aliases
+### STEP 2: Identify Aliases
 1. Type these commands in the terminal: 
 2. `which ll `
 3. `alias -p `
@@ -358,7 +397,7 @@
 
 ![image](https://user-images.githubusercontent.com/36435980/144319179-4752c908-7dd1-4345-8983-c3b7aa95d785.png)
 
-### TASK 3: Create Aliases 	
+### STEP 3: Create Aliases 	
 1. Type these commands in the terminal: 
 2. `help alias `
 - > Take a moment to read the help.
@@ -378,16 +417,21 @@
 ### HANDS ON EXERCISE - Using Commands and Aliases
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
 - > Confirm you are logged in to the correct host and starting from the the **~student** home directory.
 - > Log out and connect using the correct host and/or user as needed.
 ******
-### TASK 2: Perform the following operations
+### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.3 `
 - > Enter ***Passw0rd*** for the password when prompted.  
@@ -407,7 +451,7 @@
 11. `cat group | wc -w `
 - > Count the number of "words" (as understood by  `wc`)
 	
-### TASK 3: Use expansion with commands and aliases
+### STEP 3: Use expansion with commands and aliases
 1. Type the following in the SSH terminal on **server1**
 2. `cd ~ ` 
 3. `date --help | less `
@@ -426,7 +470,7 @@
 
 ![image](https://user-images.githubusercontent.com/36435980/144326525-4b343fb5-99f4-4fd4-b5b5-ca608fa145da.png)
 	
-### TASK 4: Complete the following operations	
+### STEP 4: Complete the following operations	
 1. Return to the terminal on Workstation and type the following:
 2. `alias -p `
 3. `which labtest `
@@ -455,10 +499,15 @@
 ### END OF MODULE LAB - Using the CLI
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
 
 ******
 
-### TASK 1: Confirm your are logged in to the correct host as the correct user
+### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Type the following commands in the terminal:
 3. `hostname ; whoami ; pwd `
@@ -467,7 +516,7 @@
 
 ******
 
-### TASK 2: Connect to SERVER2 as user student
+### STEP 2: Connect to SERVER2 as user student
 1. Type these commands in the terminal: 
 2. `ssh student@192.168.4.4 `
 - > Enter ***Passw0rd*** when prompted.
@@ -477,7 +526,7 @@
 
 *****
 
-### TASK 3:  Perform the following operations on SERVER2
+### STEP 3:  Perform the following operations on SERVER2
 
 1. Display only the first 10 lines of */usr/share/dict/words*
 2. Display only the last 17 lines of */usr/share/dict/words*
