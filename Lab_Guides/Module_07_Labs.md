@@ -5,10 +5,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use commands to view ownership and permission information about files and directories
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -55,10 +52,8 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use `chown` to modify ownership
+- Use `chmod` to modify permissions
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -103,10 +98,8 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use `chown` to modify ownership
+- Use `chmod` to modify permissions
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -166,10 +159,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- View and set **special permissions**
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -218,10 +208,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Configure directories with permissions appropriate for group collaboration
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -274,10 +261,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Configure ownership and permissions on files and directories
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
