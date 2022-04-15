@@ -5,9 +5,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Use `vimtutor` to learn how to use the `vim` editor
 
 ******
 
@@ -47,9 +45,7 @@ https://user-images.githubusercontent.com/36435980/144520039-7b34ce90-987e-4478-
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Use Extended Command Mode, a.k.a. **"EX Mode"** in `vim`
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -79,9 +75,8 @@ https://user-images.githubusercontent.com/36435980/144520039-7b34ce90-987e-4478-
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Use `vim` features for navigation, selection, deletion, copying, pasting, and repetition 
+- Use `vim` EX Mode for file operations and to enable/disable line numbers
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -139,10 +134,7 @@ https://user-images.githubusercontent.com/36435980/144653014-189997f4-4fd5-4dea-
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use the `vim` editor and its many features
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -211,9 +203,8 @@ https://user-images.githubusercontent.com/36435980/144658535-05020914-b121-4c24-
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Use BASH shell redirection metacharacters correctly
+- Redirect STDOUT and STDERR using their file descriptor numbers
 
 
 ******
@@ -265,10 +256,7 @@ https://user-images.githubusercontent.com/36435980/144658535-05020914-b121-4c24-
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use the pipe symbol ( `|` ) to redirect the output (STDOUT) from a command to the input (STDIN) of another comand
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -326,10 +314,8 @@ https://user-images.githubusercontent.com/36435980/144658535-05020914-b121-4c24-
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use the pipe symbol ( `|` ) to redirect the output (STDOUT) from a command to the input (STDIN) of another comand
+- Use the `tee` command
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -376,10 +362,8 @@ https://user-images.githubusercontent.com/36435980/144658535-05020914-b121-4c24-
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Edit text
+- Use I/O redirection
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
