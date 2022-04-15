@@ -5,9 +5,9 @@
 
 > ### Perform the following tasks on the Workstation VM Console as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Log in to the GNOME Desktop on the Ubuntu **labserver** console
+- Use **Virtual Machine Manager** to log in to the GNOME Desktop on the OL8 **Workstation** VM
+- Use the command line terminal to run commands in the BASH shell
 
 ******
 ### STEP 1: Log in to Workstation as user **student**
@@ -82,10 +82,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use the BASH shell history
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -133,9 +130,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Use the BASH shell special metacharacters correctly
 
 
 ******
@@ -177,10 +172,10 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use BASH shell filename expansion, a.k.a. **globbing**
+- Use BASH shell command substitutions
+- Use BASH shell tilde expansion
+- Use BASH shell brace expansion
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -259,9 +254,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Use the BASH shell and many of its features to correctly and effiently run commands
 
 
 ******
@@ -287,9 +280,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Use BASH shell "builtin" commands and the `help` documentation
 
 
 ******
@@ -330,10 +321,8 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use executable binary files to run external shell commands
+- Use executable script files to run external shell commands
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -364,10 +353,8 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use the BASH shell builtin command `alias`
+- Understand and create command aliases
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -418,10 +405,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use BASH shell builtins, external commands, and aliases to operate a Linux system from the command line
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -500,10 +484,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use BASH shell builtins, external commands, and aliases to operate a Linux system from the command line
 
 ******
 
