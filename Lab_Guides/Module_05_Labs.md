@@ -5,9 +5,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- View and set variables that affect operation of the BASH shell
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -38,9 +36,8 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- View and edit BASH startup files
+- Set and export personalized shell environment variables
 
 
 ******
@@ -100,10 +97,8 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Configure the file */etc/issue* to add pre-login messages for local TTY console users
+- Configure the file */etc/motd* to add post-login messages for all users' terminals
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -154,10 +149,8 @@ Welcome to Workstation!
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Change the `$PATH` environment variable to also include the directory *~student/scripts/*
+- Write and run a simple shell script in the directory added to the `$PATH`
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -210,10 +203,7 @@ echo "Hello $USER"
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Configure the BASH shell 
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
