@@ -5,10 +5,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Manage local groups
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -50,10 +47,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Manage local user accounts
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -127,10 +121,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Manage local user accounts and groups
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -218,10 +209,8 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use `su` to log in to a different user account
+- Use `su` to run commands as a different user
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -273,10 +262,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use `sudo` to run commands as a different user
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -317,10 +303,8 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Configure and use `sudo` privileges
+- Use `su` to switch users
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -380,10 +364,8 @@ bob  ALL=(ALL)    NOPASSWD:  ALL
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- View the available password aging policy options stored in the */etc/shadow* file
+- Use the `chage -l USERNAME` command to view current password aging policy settings
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -426,10 +408,8 @@ bob  ALL=(ALL)    NOPASSWD:  ALL
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Configure password aging policies
+- Require users to change their password at their next login
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -476,10 +456,7 @@ bob  ALL=(ALL)    NOPASSWD:  ALL
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Manage password aging policies
 
 ******
 ### STEP 1: Confirm you are logged in to the correct host as the correct user
@@ -551,10 +528,7 @@ PASS_WARN_AGE        10
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Manage local groups, users, and passwords
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
