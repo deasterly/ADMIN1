@@ -392,7 +392,7 @@
 - > This will result in a **`"command not found"`** error, which is expected.
 4. `alias labtest='echo Hello world' `
 - > Note the use of single quotes and not backtick quotes after the `=` sign.
-5. labtest
+5. `labtest`
 
 ![image](https://user-images.githubusercontent.com/36435980/144319772-93f604f0-3bc9-4247-8b46-5ec5bab2fe29.png)
 
