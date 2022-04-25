@@ -70,10 +70,10 @@
       3.  `ls`
       4.  `lls`
       5.  `put /etc/hosts`
-      6.  6.  `ls`
-      7.  7.  `get anaconda-ks.cfg`
-      8.  8.  `lls`
-      9.  9.  `exit`
+      6.  `ls`
+      7.  `get anaconda-ks.cfg`
+      8.  `lls`
+      9.  `exit`
 
 ![image](https://user-images.githubusercontent.com/36435980/162843013-45ef497f-7d35-46e9-af38-bf0a448b9f76.png)
 
