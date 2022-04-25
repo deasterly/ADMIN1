@@ -211,10 +211,10 @@
 2. `ssh root@server1`
 - > Remember to include the **!** at the end of the root password --> **Passw0rd!** 
 3. Type these commands in the terminal on **server1**:
- 1. `ssh student@localhost 'hostname ; whoami' `
- 2. `ssh server2 'hostname ; whoami' `
- 3. `ssh student@server2 'hostname ; whoami' `
- 4. `exit` 
+      1. `ssh student@localhost 'hostname ; whoami' `
+      2. `ssh server2 'hostname ; whoami' `
+      3. `ssh student@server2 'hostname ; whoami' `
+      4. `exit` 
 
 ![image](https://user-images.githubusercontent.com/36435980/165127216-5e6a09ab-0f75-42ca-9182-bbe86fcda2d9.png)
 
