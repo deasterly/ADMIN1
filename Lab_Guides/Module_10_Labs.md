@@ -329,6 +329,48 @@
 ******
 
 # Configuring SSH (pages 108-115 & 443-452)
+## SSH IDENTITY KEYS
+
+### TRY IT - Using SSH Identity Keys with a Passphrase
+
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
+******
+
+### STEP 1: Confirm your are logged in to the correct host as the correct user
+1. Open a terminal as needed
+2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+3. Log out and connect using the correct host and/or user as needed.
+******
+### STEP 2: Perform the following operations
+1. Type these commands in the terminal: 
+2. ` `
+
+![image](https://user-images.githubusercontent.com/36435980/165175540-6dd91d10-ee57-4a5f-b82a-84e8baa23369.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165175792-712b72ef-66f9-4b74-a4b7-6f9d3e350485.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165176090-435eaa56-9742-4111-adf2-51443489ea4e.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165176255-90e389b0-ac15-4f33-8987-08c29aa1e4fc.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165176892-fe7f9e33-fdb8-47de-b2dc-8dde15ea7a9f.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165177901-3de8e55e-1f96-4511-bb02-a86ff43e28ee.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165178544-6a9be6da-b1f1-4792-8b40-ee58becfe535.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165179191-e5edb2d6-802f-4707-a8cb-4fa8e8eca8c6.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165180118-d93ad59b-6029-43ea-85b4-0c5cc89f5c90.png)
+
+*****
+
+# Configuring SSH (pages 108-115 & 443-452)
 ## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
 
 ### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
@@ -349,4 +391,58 @@
 1. Type these commands in the terminal: 
 2. ` `
 
+
 ******
+
+# Configuring SSH (pages 108-115 & 443-452)
+## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
+
+### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
+
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
+******
+### STEP 1: Confirm your are logged in to the correct host as the correct user
+1. Open a terminal as needed
+2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+3. Log out and connect using the correct host and/or user as needed.
+******
+### STEP 2: Perform the following operations
+1. Type these commands in the terminal: 
+2. ` `
+
+
+
+
+******
+
+# Configuring SSH (pages 108-115 & 443-452)
+## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
+
+### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
+
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
+******
+
+### STEP 1: Confirm your are logged in to the correct host as the correct user
+1. Open a terminal as needed
+2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+3. Log out and connect using the correct host and/or user as needed.
+******
+### STEP 2: Perform the following operations
+1. Type these commands in the terminal: 
+2. ` `
+
+
+
+
+*****
