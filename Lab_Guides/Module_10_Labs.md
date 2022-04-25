@@ -250,9 +250,59 @@
 ******
 
 # Configuring SSH (pages 108-115 & 443-452)
-## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
+## SSH HOST KEYS
 
-### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
+### TRY IT - Accepting SSH Host Keys
+
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Identify and accept SSH host identity keys
+- Understand and use the *~/.ssh/known_hosts* file
+
+******
+### STEP 1: Confirm your are logged in to the correct host as the correct user
+1. Open a terminal as needed
+2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+3. Log out and connect using the correct host and/or user as needed.
+******
+### STEP 2: Perform the following operations
+1. Type these commands in the terminal: 
+2. ` `
+
+![image](https://user-images.githubusercontent.com/36435980/165165185-2d9e8244-ab91-464d-ad1e-d7146bf0325b.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165166296-dc9764db-cfa0-4c18-a510-14f238014eeb.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165166818-33b3afff-f5cf-4eb8-ae56-4b2dba1fc5be.png)
+
+
+******
+
+# Configuring SSH (pages 108-115 & 443-452)
+## SSH IDENTITY KEYS
+
+### TRY IT - Creating an SSH Identity Key Pair
+
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+******
+### STEP 1: Confirm your are logged in to the correct host as the correct user
+1. Open a terminal as needed
+2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+3. Log out and connect using the correct host and/or user as needed.
+******
+### STEP 2: Perform the following operations
+1. Type these commands in the terminal: 
+2. ` `
+
+![image](https://user-images.githubusercontent.com/36435980/165168454-3f122010-cb17-4ffd-a0d4-93c704dea673.png)
+
+
+******
+
+# Configuring SSH (pages 108-115 & 443-452)
+## SSH IDENTITY KEYS
+
+### TRY IT - Installing an SSH Identity Key
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
@@ -270,46 +320,11 @@
 1. Type these commands in the terminal: 
 2. ` `
 
-******
+![image](https://user-images.githubusercontent.com/36435980/165169567-ff4629cb-d33d-43c9-9395-2e406443c269.png)
 
-# Configuring SSH (pages 108-115 & 443-452)
-## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
+![image](https://user-images.githubusercontent.com/36435980/165170198-21a22f37-42c6-4e39-953d-5338f5c3c367.png)
 
-### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
-
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
-******
-### STEP 1: Confirm your are logged in to the correct host as the correct user
-1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
-3. Log out and connect using the correct host and/or user as needed.
-******
-### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
-2. ` `
-
-******
-
-# Configuring SSH (pages 108-115 & 443-452)
-## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
-
-### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
-
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
-> In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
-******
-### STEP 1: Confirm your are logged in to the correct host as the correct user
-1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
-3. Log out and connect using the correct host and/or user as needed.
-******
-### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
-2. ` `
+![image](https://user-images.githubusercontent.com/36435980/165170830-fa4c7ace-5424-4cfb-abaf-ed8d8cdf7277.png)
 
 ******
 
