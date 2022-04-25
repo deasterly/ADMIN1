@@ -5,10 +5,9 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use the `ssh` client to run commands remotely
+- Identify useful `ssh` client options
+- Find documentation for the `ssh` client
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -54,10 +53,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use the `sftp` client to interactively transfer files  
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -69,15 +65,15 @@
 1. Type these commands in the terminal: 
 2. `sftp root@192.168.4.3`
 3. Type the following commands at the `sftp> ` prompt
-- `pwd`
-- `lpwd`
-- `ls`
-- `lls`
-- `put /etc/hosts`
-- `ls`
-- `get anaconda-ks.cfg`
-- `lls`
-- `exit`
+ 1.  `pwd`
+ 2.  `lpwd`
+ 3.  `ls`
+ 4.  `lls`
+ 5.  `put /etc/hosts`
+ 6.  `ls`
+ 7.  `get anaconda-ks.cfg`
+ 8.  `lls`
+ 9.  `exit`
 
 ![image](https://user-images.githubusercontent.com/36435980/162843013-45ef497f-7d35-46e9-af38-bf0a448b9f76.png)
 
@@ -92,10 +88,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use the `scp` client to transfer files
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -141,10 +134,8 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
+- Use the `rsync` client for file transfer
+- Use the `rsync` client for incremental file transfer
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
@@ -198,15 +189,15 @@
 ******
 
 # Using and Configuring SSH (pages 108-115 & 443-452)
-## MODULE REVIEW
+## LESSON REVIEW
 
-### END OF MODULE LAB - Using SSH Features
+### HANDS-ON EXERCISE - Using SSH Features
 
-> ### Perform the following tasks on the **SERVER2 VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+- Use the `ssh` client to log in interactively
+- Use the `ssh` client to run commands remotely 
+- Use file transfer clients encrypted over SSH
 
 
 ******
@@ -217,8 +208,45 @@
 ******
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
-2. ` `
-3. 
+2. `ssh root@server1`
+- > Remember to include the **!** at the end of the root password --> **Passw0rd!** 
+3. Type these commands in the terminal on **server1**:
+ 1. `ssh student@localhost 'hostname ; whoami' `
+ 2. `ssh server2 'hostname ; whoami' `
+ 3. `ssh student@server2 'hostname ; whoami' `
+ 4. `exit` 
+
+![image](https://user-images.githubusercontent.com/36435980/165127216-5e6a09ab-0f75-42ca-9182-bbe86fcda2d9.png)
+
+5. After returning to the terminal on **Workstation** as **student** type these commands in the terminal:
+6. `mkdir ~/remote`
+7. `scp root@server1:/etc/hosts  ~/remote/hosts.server1 `
+- > Enter the **root** password when prompted
+8. `scp root@server2:/etc/hosts  ~/remote/hosts.server2`
+9. `ls -lh ~/remote/`
+10. `cd ~/remote`
+
+![image](https://user-images.githubusercontent.com/36435980/165127686-5200e91d-1c57-4c6e-88a3-e4cdac99abd8.png)
+
+11. `rsync -av root@server1:/usr/share/info  ./ `
+- > Enter the **root** password when prompted
+12. `ls -ahl`
+
+![image](https://user-images.githubusercontent.com/36435980/165128020-def96c16-d61c-497f-bc00-9fd15f0c4dad.png)
+![image](https://user-images.githubusercontent.com/36435980/165128180-2064b3ae-630d-46ca-8581-d5415849d7ba.png)
+
+13. `rsync -av root@server1:/usr/share/info/  ./  `
+
+![image](https://user-images.githubusercontent.com/36435980/165128335-3a89f2ee-4949-4a5f-9d42-e8b2eb68e472.png)
+
+14. `ls -hl`
+- > Note that when using `rsync` only the contents are transferred if the source directory ends **with** a trailing slash, whereas the entire directory is transferred **without** the trailing slash.
+15.  `cd `
+16.  `rm -rf remote`
+
+![image](https://user-images.githubusercontent.com/36435980/165128566-a1f51c57-713b-45c6-87fd-079c036e8e73.png)
+![image](https://user-images.githubusercontent.com/36435980/165128701-a2b78094-1369-4863-b41e-d274023c2116.png)
+
 ******
 
 # Configuring SSH (pages 108-115 & 443-452)
