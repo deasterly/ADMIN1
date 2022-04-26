@@ -77,7 +77,7 @@
 
 ![image](https://user-images.githubusercontent.com/36435980/162843013-45ef497f-7d35-46e9-af38-bf0a448b9f76.png)
 
-4. `rm -fv ~/anaconda-ks.cfg`
+4. `rm -fv ~fw/anaconda-ks.cfg`
 
 ******
 
@@ -249,7 +249,7 @@
 
 ******
 
-# Configuring SSH (pages 108-115 & 443-452)
+# Using and Configuring SSH (pages 108-115 & 443-452)
 ## SSH HOST KEYS
 
 ### TRY IT - Accepting SSH Host Keys
@@ -278,7 +278,7 @@
 
 ******
 
-# Configuring SSH (pages 108-115 & 443-452)
+# Using and Configuring SSH (pages 108-115 & 443-452)
 ## SSH IDENTITY KEYS
 
 ### TRY IT - Creating an SSH Identity Key Pair
@@ -299,7 +299,7 @@
 
 ******
 
-# Configuring SSH (pages 108-115 & 443-452)
+# Using and Configuring SSH (pages 108-115 & 443-452)
 ## SSH IDENTITY KEYS
 
 ### TRY IT - Installing an SSH Identity Key
@@ -328,7 +328,7 @@
 
 ******
 
-# Configuring SSH (pages 108-115 & 443-452)
+# Using and Configuring SSH (pages 108-115 & 443-452)
 ## SSH IDENTITY KEYS
 
 ### TRY IT - Using SSH Identity Keys with a Passphrase
@@ -341,6 +341,36 @@
 
 ******
 
+### STEP 1: Confirm your are logged in to the correct host as the correct user
+1. Open a terminal as needed
+2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+3. Log out and connect using the correct host and/or user as needed.
+******
+### STEP 2: Perform the following operations
+1. Type these commands in the terminal: 
+2. ` `
+
+![image](https://user-images.githubusercontent.com/36435980/165389098-6192200b-0f83-4981-b700-3858d9b763ad.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165389296-f1cba07b-71f2-4d55-9c64-5da1ef8fb945.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165389526-715c5a45-b921-428a-ad09-db012c9d6ad7.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165389851-68aeb145-638e-472a-b795-1a121523ce6e.png)
+
+**********
+# Using and Configuring SSH (pages 108-115 & 443-452)
+## LESSON REVIEW
+
+### HANDS-ON EXERCISE - SSH Key-based Authentication
+
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
+******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
 2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
@@ -368,7 +398,7 @@
 
 *****
 
-# Configuring SSH (pages 108-115 & 443-452)
+# Using and Configuring SSH (pages 108-115 & 443-452)
 ## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
 
 ### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
@@ -392,7 +422,7 @@
 
 ******
 
-# Configuring SSH (pages 108-115 & 443-452)
+# Using and Configuring SSH (pages 108-115 & 443-452)
 ## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
 
 ### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
@@ -418,7 +448,7 @@
 
 ******
 
-# Configuring SSH (pages 108-115 & 443-452)
+# Using and Configuring SSH (pages 108-115 & 443-452)
 ## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
 
 ### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
