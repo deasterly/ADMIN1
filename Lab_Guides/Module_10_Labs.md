@@ -399,9 +399,9 @@
 *****
 
 # Using and Configuring SSH (pages 108-115 & 443-452)
-## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
+## SECURING THE SSH SERVICE
 
-### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
+### TRY IT - Disabling Password Authentication
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
@@ -418,6 +418,10 @@
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. ` `
+
+![image](https://user-images.githubusercontent.com/36435980/165396222-8624a136-fa13-4c67-a802-a22b522029b2.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165397132-b0f35c13-16e4-49db-9a1e-356ea1aebc45.png)
 
 
 ******
