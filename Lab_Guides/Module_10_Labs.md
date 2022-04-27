@@ -427,6 +427,63 @@
 ******
 
 # Using and Configuring SSH (pages 108-115 & 443-452)
+## SECURING THE SSH SERVICE
+
+### TRY IT - Restricting SSH Access for **root**
+
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
+******
+### STEP 1: Confirm your are logged in to the correct host as the correct user
+1. Open a terminal as needed
+2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+3. Log out and connect using the correct host and/or user as needed.
+******
+### STEP 2: Perform the following operations
+1. Type these commands in the terminal: 
+2. ` `
+
+![image](https://user-images.githubusercontent.com/36435980/165622534-8ee3cbcc-917e-4425-809e-da26b6853e62.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165623440-915a5688-9fff-4a2b-a8f7-db4de255daf1.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165625399-336a4aca-b180-4972-8729-e9089594a489.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165626135-46ecf0d4-11ca-4641-927f-ca6d1f6d67a4.png)
+
+
+******
+
+# Using and Configuring SSH (pages 108-115 & 443-452)
+## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
+
+### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
+
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
+******
+
+### STEP 1: Confirm your are logged in to the correct host as the correct user
+1. Open a terminal as needed
+2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+3. Log out and connect using the correct host and/or user as needed.
+******
+### STEP 2: Perform the following operations
+1. Type these commands in the terminal: 
+2. ` `
+
+
+******
+
+# Using and Configuring SSH (pages 108-115 & 443-452)
 ## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
 
 ### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
@@ -475,6 +532,56 @@
 2. ` `
 
 
+
+******
+
+# Using and Configuring SSH (pages 108-115 & 443-452)
+## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
+
+### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
+
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
+******
+### STEP 1: Confirm your are logged in to the correct host as the correct user
+1. Open a terminal as needed
+2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+3. Log out and connect using the correct host and/or user as needed.
+******
+### STEP 2: Perform the following operations
+1. Type these commands in the terminal: 
+2. ` `
+
+
+
+
+******
+
+# Using and Configuring SSH (pages 108-115 & 443-452)
+## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
+
+### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
+
+> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> In this lab you will perform the following tasks:
+- Task 1
+- Task 2
+- Task 3
+
+******
+
+### STEP 1: Confirm your are logged in to the correct host as the correct user
+1. Open a terminal as needed
+2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+3. Log out and connect using the correct host and/or user as needed.
+******
+### STEP 2: Perform the following operations
+1. Type these commands in the terminal: 
+2. ` `
 
 
 *****
