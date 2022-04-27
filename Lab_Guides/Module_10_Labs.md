@@ -459,36 +459,11 @@
 ******
 
 # Using and Configuring SSH (pages 108-115 & 443-452)
-## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
+## MODULE REVIEW
 
-### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
+### END OF MODULE LAB - Configuring SSH
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
-> In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
-******
-
-### STEP 1: Confirm your are logged in to the correct host as the correct user
-1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
-3. Log out and connect using the correct host and/or user as needed.
-******
-### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
-2. ` `
-
-
-******
-
-# Using and Configuring SSH (pages 108-115 & 443-452)
-## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
-
-### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
-
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Server2 VM** as user **root**.
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -497,91 +472,57 @@
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+2. Confirm you are logged in to the correct host and starting from the the **~root** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
-2. ` `
+1. Create an SSH identity key with a passphrase of **PassTheRHCSA**
+      1.  `ssh-keygen -f ~/.ssh/keypass` 
+      2.  Type  **PassTheRHCSA** for the passphrase both times
 
+![image](https://user-images.githubusercontent.com/36435980/165643990-03756079-f1b6-4439-956c-e98a10d99eb2.png)
 
+2. Install the new key into the *~/.ssh/authorized_keys* for **root** on Workstation
+      1.  `ssh-copy-id -i ~/.ssh/keypass.pub  root@192.168.4.254` 
+3. Connect as **root** to Workstation using the new identity key
+      1. `ssh -i ~/.ssh/keypass root@192.168.4.254 'hostname ; whoami' ` 
+      - > **Note that you must enter the key's passphrase and NOT the user's password**
 
+![image](https://user-images.githubusercontent.com/36435980/165644731-92830643-0487-454a-b2a3-c234e573292f.png)
 
-******
+4. Install the new key into the *~/.ssh/authorized_keys* for **root** on Server2
+      1.  `ssh-copy-id -i ~/.ssh/keypass.pub  root@server2`
 
-# Using and Configuring SSH (pages 108-115 & 443-452)
-## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
+![image](https://user-images.githubusercontent.com/36435980/165645015-9e9e754d-5cf5-4a69-855b-05538becf1c5.png)
 
-### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
+5. Configure the file */etc/ssh/sshd_config* on Server2 to only permit **root** login using an identity key and restart the SSHD service 
+      1.  Change **`PermitRootLogin yes`** to **`PermitRootLogin without-password`** in */etc/ssh/sshd_config*
+      2.  `mkdir -pv /tmp/backupfiles/ ; cp -v /etc/ssh/sshd_config /tmp/backupfiles/ ; vim /etc/ssh/sshd_config`
+      3.  `systemctl restart sshd` 
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
-> In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
+![image](https://user-images.githubusercontent.com/36435980/165645383-3a0346e5-3e5c-4469-8e48-bd47a1d90ac8.png)
 
-******
+6. Become **student** on Server2, test **root** SSH login, create an SSH identity keypair with no passphrase and log out
+      1. `su -l student`
+      2. `ssh root@localhost 'hostname ; whoami' 
+      - > Notice the denial message even with the correct password
+      3. `ssh-keygen`
+      4. Accept the default file name and press **`<ENTER>`** twice for an empty passphrase
+      5. `logout`
 
-### STEP 1: Confirm your are logged in to the correct host as the correct user
-1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
-3. Log out and connect using the correct host and/or user as needed.
-******
-### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
-2. ` `
+![image](https://user-images.githubusercontent.com/36435980/165645629-11818b66-36c5-428c-b511-ba9773b6ca93.png)
 
+7. As **root** on Server2, manually add the public key */home/student/.ssh/id_rsa.pub* to */root/.ssh/authorized_keys* 
+      1. `cat ~student/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys`
+8. Switch to the **student** user again then test SSH login to Server2 as **root**
+      1. `su -l student`
+      2. Run `ssh root@localhost` as **student** 
+9. Configure the file */etc/ssh/sshd_config* on Server2 to permit **root** login and restart the SSHD service 
+      1.  Change **`PermitRootLogin without-password`** to **`PermitRootLogin yes`** in */etc/ssh/sshd_config*
+      2.  `vim /etc/ssh/sshd_config`
+      3.  `systemctl restart sshd` 
+10. Log out of all open terminals on Server2
 
-
-******
-
-# Using and Configuring SSH (pages 108-115 & 443-452)
-## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
-
-### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
-
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
-> In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
-******
-### STEP 1: Confirm your are logged in to the correct host as the correct user
-1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
-3. Log out and connect using the correct host and/or user as needed.
-******
-### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
-2. ` `
-
-
-
+![image](https://user-images.githubusercontent.com/36435980/165646159-95b3df6b-e78d-47f5-9cdd-ff53c329170b.png)
 
 ******
-
-# Using and Configuring SSH (pages 108-115 & 443-452)
-## TOPIC TITLE | LESSON REVIEW | MODULE REVIEW
-
-### TRY IT | HANDS-ON EXERCISE | END OF MODULE LAB - [Lab Title Here]
-
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
-> In this lab you will perform the following tasks:
-- Task 1
-- Task 2
-- Task 3
-
-******
-
-### STEP 1: Confirm your are logged in to the correct host as the correct user
-1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
-3. Log out and connect using the correct host and/or user as needed.
-******
-### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
-2. ` `
-
-
-*****
