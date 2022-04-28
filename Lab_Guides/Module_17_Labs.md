@@ -315,7 +315,7 @@ instructor  ALL=(ALL)    NOPASSWD:  ALL
 ### TRY IT - Configuring a Name-based Virtual Host 
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
-> NOTE: This exercises is **OPTIONAL/ADVANCED** 
+> NOTE: This exercise is **OPTIONAL/ADVANCED** 
 
 > In this lab you will perform the following tasks:
 - Task 1
