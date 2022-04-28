@@ -237,8 +237,6 @@ instructor  ALL=(ALL)    NOPASSWD:  ALL
 ### TRY IT - Customizing Web Server Configuration
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
-> NOTE: This exercises is **OPTIONAL/ADVANCED** 
-
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -278,8 +276,6 @@ instructor  ALL=(ALL)    NOPASSWD:  ALL
 ### TRY IT - Enabling User Home Pages
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
-> NOTE: This exercises is **OPTIONAL/ADVANCED** 
-
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
