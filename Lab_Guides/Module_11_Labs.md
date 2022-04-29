@@ -20,6 +20,8 @@
 1. Type these commands in the terminal: 
 2. ` `
 
+![image](https://user-images.githubusercontent.com/36435980/165865230-1aad1444-1b0b-4ff0-b3cd-721d86f92cb0.png)
+
 
 ******
 
@@ -44,6 +46,12 @@
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. ` `
+
+![image](https://user-images.githubusercontent.com/36435980/165866186-7e6a0923-c4b5-4022-b5c3-d10c531ab060.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165867058-bd81163c-5654-47b3-b560-92c136a0d116.png)
+
+![image](https://user-images.githubusercontent.com/36435980/165867347-c16907d9-a25c-467f-b322-07039a9bbca7.png)
 
 
 ******
