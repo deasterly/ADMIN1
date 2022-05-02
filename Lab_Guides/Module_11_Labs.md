@@ -96,10 +96,10 @@
 
 ### HANDS-ON EXERCISE - Syslog Logging
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Server1 VM** as user **root**.
 > In this lab you will perform the following tasks:
-- Task 1
-- Task 2
+- Configure custom rules for **syslog** using */etc/rsyslog.conf* and */etc/rsyslog.d/*
+- Configure log rotation
 - Task 3
 
 
@@ -112,6 +112,13 @@
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `  `
+
+![image](https://user-images.githubusercontent.com/36435980/166322544-cd619fab-3108-4513-9f6d-4acf1fabb8d7.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166324303-f55036c3-510d-4a9a-9265-ca05e4bc739f.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166325275-4794bc39-fd17-4ba9-8ec5-8377f17c83c3.png)
+
 
 ******
 
