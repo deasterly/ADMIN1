@@ -228,7 +228,7 @@
 
 ### END OF MODULE LAB - Configuring Logging
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Server2 VM** as user **root**.
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -238,12 +238,24 @@
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+2. Confirm you are logged in to the correct host and starting from the the **~root** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `  `
+
+![image](https://user-images.githubusercontent.com/36435980/166337676-676d9d52-d8ac-4f62-a1a1-d95cd152df44.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166337930-d48e0491-e2d2-422b-874c-907dd75f3711.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166338662-244721a6-a460-4518-85d6-920438cc6a7c.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166338888-7bf49770-6bd5-4373-b1cb-ecb8fe3a6dab.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166339000-b6c57144-f750-481f-a0ca-bc02f5448a7f.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166339354-db3e760a-584f-4bad-9aea-dc22dbb5110b.png)
 
 
 ******
