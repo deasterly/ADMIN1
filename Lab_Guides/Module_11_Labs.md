@@ -194,7 +194,7 @@
 
 ### HANDS-ON EXERCISE - Searching and Preserving Journal Logs
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Server1 VM** as user **root**.
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -204,13 +204,22 @@
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+2. Confirm you are logged in to the correct host and starting from the the **~root** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. `  `
 
+![image](https://user-images.githubusercontent.com/36435980/166334201-fa8d80ec-f32f-45c3-b97e-8387ef5c3185.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166334711-a17ff4fe-e028-4be9-88b2-b51ceca4f8be.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166335454-628c72ed-5e68-4d11-ac90-022af1a862e0.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166335733-e2611313-9964-41e8-b4d9-26592fc9c80b.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166336249-a9a8d9d9-bf4d-40fe-82c7-62990379f081.png)
 
 ******
 
