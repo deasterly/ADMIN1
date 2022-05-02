@@ -106,7 +106,7 @@
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+2. Confirm you are logged in to the correct host and starting from the the **~root** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
@@ -127,7 +127,7 @@
 
 ### TRY IT - Reading Journal Logs
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **root**.
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -137,13 +137,24 @@
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+2. Confirm you are logged in to the correct host and starting from the the **~root** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. ` `
 
+![image](https://user-images.githubusercontent.com/36435980/166328339-8a9f7360-0997-45a0-96d7-26eb7b7cd7b8.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166328438-2720490e-7ed5-4253-8d13-223042aa4e01.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166329218-f45107c3-9fad-4588-bf8c-80c3104b78ea.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166329850-58e08eef-b163-48b0-b221-2d370ae7e359.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166330662-22f65ff9-7fbd-42f0-9d5b-bd07e9e98c29.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166330809-3d49cdce-9b8b-4d9c-93d4-d79194f8c3c9.png)
 
 
 ******
