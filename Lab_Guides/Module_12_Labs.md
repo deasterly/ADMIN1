@@ -134,7 +134,7 @@
 
 ### TRY IT - RPM Package Queries
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **root**.
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -144,13 +144,14 @@
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+2. Confirm you are logged in to the correct host and starting from the the **~root** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. ` `
 
+![image](https://user-images.githubusercontent.com/36435980/166522531-daaacffd-1655-4a11-81d0-d6a1755e6712.png)
 
 
 ******
