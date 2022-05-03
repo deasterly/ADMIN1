@@ -44,7 +44,7 @@
 
 ### HANDS-ON EXERCISE - Understanding Modules and the AppStream Repo
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Server1 VM** as user **root**.
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -54,13 +54,12 @@
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+2. Confirm you are logged in to the correct host and starting from the the **~root** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
-
-
+1. Open the ***Pearson RHCSA 8 Cert Guide*** to pages 224-225
+2. Complete **Exercise 9-3** from the book
 
 
 ******
@@ -70,7 +69,7 @@
 
 ### TRY IT - Enabling and Disabling a Repository
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **root**.
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -80,12 +79,21 @@
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+2. Confirm you are logged in to the correct host and starting from the the **~root** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 
+![image](https://user-images.githubusercontent.com/36435980/166569490-a1411249-b7e0-43fc-89d7-fa911da84ad1.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166570398-78499d19-2de2-4bfc-ac18-03ba63663e01.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166570539-e0995806-904a-4685-ba2e-e57d0bff7abe.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166571564-26007808-e227-4151-ba8c-785814c9f4bc.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166571686-35bc38dc-257c-42a6-b9b9-ff5bda186631.png)
 
 
 
