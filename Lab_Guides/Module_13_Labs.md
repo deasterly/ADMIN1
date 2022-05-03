@@ -120,7 +120,13 @@
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 
+![image](https://user-images.githubusercontent.com/36435980/166574066-e0ce6e57-3fc5-4e13-a76b-0658e2691c9f.png)
 
+![image](https://user-images.githubusercontent.com/36435980/166574271-fbf05a6d-115e-499e-a32b-0c787b672075.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166574369-7a5a4baa-757a-41f6-9a0a-6dfa5cbbcf01.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166574562-85706b0e-7130-47f0-8588-92913f8bc14b.png)
 
 
 ******
