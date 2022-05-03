@@ -86,7 +86,7 @@
 
 ### HANDS-ON EXERCISE - Finding, Adding, and Removing Software
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Server1 VM** as user **root**.
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -96,14 +96,36 @@
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+2. Confirm you are logged in to the correct host and starting from the the **~root** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. ` `
 
+![image](https://user-images.githubusercontent.com/36435980/166508382-53a3226f-4875-42e7-9cf9-5f4e169d3148.png)
 
+![image](https://user-images.githubusercontent.com/36435980/166508589-f2b2a86e-323e-41c2-b83b-aaa0d0315fee.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166509793-17f41150-4511-4450-b59e-44454d6c3e15.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166509717-cf5b8ee4-616c-4dcb-88d1-5b7e12e5b25a.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166510505-d23aeee8-5f92-4f5d-b0c5-41dd2b585acb.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166511377-cdff1278-d737-4e0f-b75b-aedbd09c2126.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166512431-44b224d3-9f56-49ef-bde6-4552e2da9771.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166513598-31c45885-30b4-4077-9359-1f9866cd3cf4.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166514511-f698f8a3-663e-46eb-9877-94f429ba83bb.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166515403-58dc36c8-1696-48b1-8af9-e1d900319973.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166515645-ff820d73-5fb4-4006-9841-11d83f185b8e.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166515988-defcaa1f-d0ac-4f5f-8c00-8864a811521a.png)
 
 ******
 
