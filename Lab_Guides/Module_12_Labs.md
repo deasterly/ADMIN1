@@ -47,7 +47,7 @@
 
 ### TRY IT - Using `yum` to Manage Package Groups
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **root**.
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -57,13 +57,26 @@
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+2. Confirm you are logged in to the correct host and starting from the the **~root** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 2. ` `
 
+![image](https://user-images.githubusercontent.com/36435980/166503635-2e3c9eab-a3dd-4349-ad60-29757d274cf8.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166504502-f647d8d5-0dca-4a00-888a-53bf9e94fdb0.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166505038-e5285bfd-d1b5-42d9-975d-81b80174134e.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166505126-3359e46b-b372-4e91-9c5e-d9dbda22476f.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166506723-ba1a538d-51d6-440e-b8a6-0711d61dcebf.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166506812-a82780a8-4633-4cd4-86b7-c62575bc3a28.png)
+
+![image](https://user-images.githubusercontent.com/36435980/166506913-8becab9e-1e75-4f71-9c37-1573c4ad6954.png)
 
 
 ******
