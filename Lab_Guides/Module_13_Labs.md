@@ -136,7 +136,7 @@
 
 ### HANDS-ON EXERCISE - Manually Configure a Repository
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Server1 VM** as user **root**.
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -146,13 +146,19 @@
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+2. Confirm you are logged in to the correct host and starting from the the **~root** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 
+![image](https://user-images.githubusercontent.com/36435980/167924378-99f31fbb-64a8-4368-b94a-095646632865.png)
 
+![image](https://user-images.githubusercontent.com/36435980/167925626-54d346ee-68b5-43a3-bd71-279d2d7708f4.png)
+
+![image](https://user-images.githubusercontent.com/36435980/167927080-eabac0a7-247d-40ae-b0cb-96dfee06070a.png)
+
+![image](https://user-images.githubusercontent.com/36435980/167927516-899f8c94-2977-4d5d-8dc4-d9224cd87ad2.png)
 
 
 ******
@@ -162,7 +168,7 @@
 
 ### END OF MODULE LAB - Software Packages
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Server2 VM** as user **root**.
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -178,7 +184,26 @@
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 
+![image](https://user-images.githubusercontent.com/36435980/167929550-01176a56-4695-447b-9aed-11877de7b4bb.png)
 
+![image](https://user-images.githubusercontent.com/36435980/167929651-a45abef5-36fe-49a0-b1b2-0cab7c256149.png)
 
+![image](https://user-images.githubusercontent.com/36435980/167929907-929433f1-c970-42ba-8906-75593790f166.png)
+
+![image](https://user-images.githubusercontent.com/36435980/167930847-2c696c6f-080d-4d2a-a2a9-cf3765fa0bb4.png)
+
+![image](https://user-images.githubusercontent.com/36435980/167932739-c4098b0b-d24d-4533-9770-8ec099553062.png)
+
+![image](https://user-images.githubusercontent.com/36435980/167936696-11b19449-8089-4e8c-bd6a-874844f0365b.png)
+
+![image](https://user-images.githubusercontent.com/36435980/167935503-6fcbd327-cdd3-4df2-8d83-ba7ac652aaa9.png)
+
+![image](https://user-images.githubusercontent.com/36435980/167937436-d724f864-f217-4692-ba18-507e6ab6c55e.png)
+
+![image](https://user-images.githubusercontent.com/36435980/167938877-e7eec228-58db-4a2d-8a1a-a31e7a45a8d6.png)
+
+![image](https://user-images.githubusercontent.com/36435980/167939445-9dc4e154-fe7e-4f11-be56-31128b06ed0f.png)
+
+![image](https://user-images.githubusercontent.com/36435980/167939686-45b8b728-9439-42f5-8bc3-b9a125cc3f56.png)
 
 ******
