@@ -162,7 +162,7 @@
 
 ### TRY IT - Modifying Network Config Files
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Server2 VM** as user **root**.
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -172,13 +172,31 @@
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+2. Confirm you are logged in to the correct host and starting from the the **~root** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 
+![image](https://user-images.githubusercontent.com/36435980/168177490-e161f58e-4fd7-4d03-9928-7c4932807e3c.png)
 
+![image](https://user-images.githubusercontent.com/36435980/168178096-1af4af26-f2f3-4d3d-b53d-1fbe59b2b702.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168178558-3c4c415e-9f24-410c-a540-abb73e89c827.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168179107-25034097-6e41-42a2-8f69-fb3480dbf769.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168179544-3c79f9bb-d007-41d6-959b-ab1c7c1158e5.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168179965-0ce294d0-7a3e-4b93-aea6-cc8e3d4922a0.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168180138-53de03ad-a5f6-480d-a487-1f485048f3d5.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168180519-31a148a9-0111-4c11-a2af-9926ee00f68c.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168181050-62b0753e-02f8-4b75-9374-c623165962db.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168181243-105623c2-e975-484e-8dd1-1aa8e8f8a9d9.png)
 
 
 ******
