@@ -122,7 +122,7 @@
 
 ### HANDS-ON EXERCISE - Managing Network Connections
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Server1 VM** as user **root**.
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -132,11 +132,20 @@
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+2. Confirm you are logged in to the correct host and starting from the the **~root** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
+
+![image](https://user-images.githubusercontent.com/36435980/168172635-e8fa05d4-c8fc-4e4f-82b5-78d68962e338.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168173388-8ab4f74e-d5f6-48c7-89ee-61773bdff95b.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168173842-5871b0d0-6d32-44ba-8124-e2b6d58511bf.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168174055-77616695-7b74-4e39-bf3d-d28047381b93.png)
+
 
 
 
