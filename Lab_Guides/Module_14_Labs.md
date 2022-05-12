@@ -42,7 +42,7 @@
 
 ### TRY IT - **NetworkManager** Connection Basics
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **root**.
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -52,13 +52,29 @@
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+2. Confirm you are logged in to the correct host and starting from the the **~root** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 
+![image](https://user-images.githubusercontent.com/36435980/168144019-8716e73f-5966-4d39-a8a8-0a054ad3b468.png)
 
+![image](https://user-images.githubusercontent.com/36435980/168144103-c762a157-b1a2-48f0-94c6-767280b6b735.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168146153-a0a09775-c3a5-4bb9-b25d-671a816fe8a4.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168149365-2443093a-4bc5-4e67-86bf-a4b7bcac9fc0.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168149803-5fad23e4-4a4c-496b-bc44-7635fecc89d4.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168150039-39b0f12f-1ad7-4603-a4d6-69ad52c41426.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168150323-d7138dd8-b776-4273-85fe-f2f6582ff1b9.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168150628-4d079f4d-02a9-4840-833b-7f57e46e9ea4.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168151252-79825a68-54bb-46f9-93e2-8777ab826fce.png)
 
 ******
 
