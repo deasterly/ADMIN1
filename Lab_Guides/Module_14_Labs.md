@@ -83,7 +83,7 @@
 
 ### TRY IT - Using `nmcli`
 
-> ### Perform the following tasks on the **Workstation VM** as user **student**.
+> ### Perform the following tasks on the **Workstation VM** as user **root**.
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -93,13 +93,25 @@
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
 1. Open a terminal as needed
-2. Confirm you are logged in to the correct host and starting from the the **~student** home directory.
+2. Confirm you are logged in to the correct host and starting from the the **~root** home directory.
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
 1. Type these commands in the terminal: 
 
+![image](https://user-images.githubusercontent.com/36435980/168158424-64b92543-83e3-4a2c-b684-8fb6c457fbc2.png)
 
+![image](https://user-images.githubusercontent.com/36435980/168163238-a29545da-f9e8-4662-8cc0-9cdbbf08927f.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168163935-4ef95683-1020-4cdf-b82d-fba0279c684e.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168166925-11e31a6e-4c49-4338-9a96-59e8c216fa1a.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168167440-601d4765-f2b4-4223-8333-1357935f5455.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168168441-d5a5a5d5-0311-4894-8e9e-91850317ce96.png)
+
+![image](https://user-images.githubusercontent.com/36435980/168168769-f1e8580a-5b74-434e-940d-3e05ac8e0623.png)
 
 
 ******
