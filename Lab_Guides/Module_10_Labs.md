@@ -116,7 +116,7 @@
 8. `scp -o PreferredAuthentications=password root@server2:/usr/share/dict/words  ~/words.txt`
 9. `ll -h words.txt`
 10. `scp  words.txt  student@server2:~/upload.txt`
-11. `ssh student@server2 'ls -lh upload.txt ; wc -l upload.txt`   
+11. `ssh student@server2 'ls -lh upload.txt ; wc -l upload.txt'  `   
 - > Note that the copied file is the same size with a different name
 
 ![image](https://user-images.githubusercontent.com/36435980/162845470-fd9968e1-958a-49f0-8df4-f99c844236bb.png)
