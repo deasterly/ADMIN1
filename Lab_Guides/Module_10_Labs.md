@@ -77,7 +77,7 @@
 
 ![image](https://user-images.githubusercontent.com/36435980/162843013-45ef497f-7d35-46e9-af38-bf0a448b9f76.png)
 
-4. `rm -fv ~fw/anaconda-ks.cfg`
+4. `rm -fv ~/anaconda-ks.cfg`
 
 ******
 
