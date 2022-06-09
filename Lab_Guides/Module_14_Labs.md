@@ -1,3 +1,8 @@
+# IMPORTANT INSTRUCTOR NOTE:
+
+***UNTIL A NEW LAB ENVIRONMENT TEMPLATE IS AVAILABLE IN VLP, WE MUST START THIS MODULE BY ADDING TWO NICS TO THE SERVER1 and SERVER2 VIRTUAL MACHINES ***
+***If the added NICs are detected as something other than enp11s0 and enp12s0 as shown, ensure learners know to adapt commands to match the correct devices.***
+
 # NETWORKING (pages 167-193)
 ## CLI COMMANDS
 
