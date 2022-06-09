@@ -17,7 +17,7 @@
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
+1. Refer to page **230** of the lab environment's "MANUAL" tab. 
 
 
 
@@ -43,7 +43,7 @@
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
+1. Refer to page **231** of the lab environment's "MANUAL" tab. 
 
 
 
@@ -69,7 +69,7 @@
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
+1. Refer to pages **233-234** of the lab environment's "MANUAL" tab. 
 
 
 
