@@ -221,9 +221,21 @@
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
+1. Open the ***Pearson RHCSA 8 Cert Guide*** to page 190 
+2. Read pages **190-193** from the book
+3. From a terminal on **Workstation** as user **student** perform the following tasks:
 
+![image](https://user-images.githubusercontent.com/36435980/172870240-75b04992-3f54-497e-986f-bbe9ecc256b0.png)
 
+![image](https://user-images.githubusercontent.com/36435980/172870501-abaa690b-68e3-4a41-bfe2-8c7d5907c9cc.png)
+
+![image](https://user-images.githubusercontent.com/36435980/172871305-9cdf2f6a-6905-4004-b0cd-607a5ffb31e3.png)
+
+![image](https://user-images.githubusercontent.com/36435980/172872453-2569eb54-1cac-4400-841c-ffe93f08ca3e.png)
+
+![image](https://user-images.githubusercontent.com/36435980/172873007-a060ef2a-881b-40c3-b756-4b238a58c8de.png)
+
+![image](https://user-images.githubusercontent.com/36435980/172873804-942fa188-da1d-40f7-b2f8-5aa921145a03.png)
 
 
 ******
