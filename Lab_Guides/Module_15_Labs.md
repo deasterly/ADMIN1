@@ -251,7 +251,7 @@
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
-1. Refer to page **225** of the lab environment's "MANUAL" tab. 
+1. Refer to pages **225-226** of the lab environment's "MANUAL" tab. 
 
 
 
