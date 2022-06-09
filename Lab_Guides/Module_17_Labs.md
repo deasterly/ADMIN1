@@ -16,7 +16,7 @@
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
+1. Refer to page **238** of the lab environment's "MANUAL" tab. 
 
 
 
@@ -42,7 +42,7 @@
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
+1. Refer to page **239** of the lab environment's "MANUAL" tab. 
 
 
 
@@ -68,7 +68,7 @@
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
+1. Refer to page **240** of the lab environment's "MANUAL" tab. 
 
 
 
@@ -120,7 +120,7 @@
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
+1. Refer to page **242** of the lab environment's "MANUAL" tab. 
 
 
 
@@ -146,7 +146,7 @@
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
+1. Refer to page **243** of the lab environment's "MANUAL" tab. 
 
 
 
@@ -159,6 +159,8 @@
 ### TRY IT - Customizing Web Server Configuration
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> NOTE: This exercise is **OPTIONAL/ADVANCED** 
+
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -167,7 +169,7 @@
 
 ******
 ### STEP 1: Confirm your are logged in to the correct host as the correct user
-1. Open a terminal as needed
+1. Refer to page **244** of the lab environment's "MANUAL" tab. 
 
 
 
@@ -180,6 +182,8 @@
 ### TRY IT - Enabling User Home Pages
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> NOTE: This exercise is **OPTIONAL/ADVANCED** 
+
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -193,7 +197,7 @@
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
+1. Refer to page **245** of the lab environment's "MANUAL" tab. 
 
 
 
@@ -221,7 +225,7 @@
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
+1. Refer to page **246** of the lab environment's "MANUAL" tab. 
 
 
 
@@ -234,6 +238,8 @@
 ### END OF MODULE LAB - Managing Servers
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
+> NOTE: This exercise is **OPTIONAL/ADVANCED** 
+
 > In this lab you will perform the following tasks:
 - Task 1
 - Task 2
@@ -247,7 +253,7 @@
 3. Log out and connect using the correct host and/or user as needed.
 ******
 ### STEP 2: Perform the following operations
-1. Type these commands in the terminal: 
+1. Refer to pages **248-249** of the lab environment's "MANUAL" tab. 
 
 
 
