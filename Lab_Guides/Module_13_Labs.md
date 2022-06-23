@@ -5,7 +5,7 @@
 
 > ### Perform the following tasks on the **Workstation VM** as user **student**.
 > In this lab you will perform the following tasks:
-- Find documentation for working with package modules
+- List information about package modules, streams, and profiles
 - Enable and reset module streams
 - Install and remove module stream profiles
 
